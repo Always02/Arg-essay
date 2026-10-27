@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f5f7">
+<title>知行 · 时政与申论</title>
+<style>
+:root{--bg:#f5f5f7;--paper:#fff;--ink:#1d1d1f;--muted:#6e6e73;--line:#e5e5e8;--soft:#f0f0f2;--accent:#2463eb;--accent-soft:#eaf0ff;--danger:#b42318;--radius:18px;--shadow:0 8px 30px rgba(0,0,0,.035)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}button,input,textarea,select{font:inherit}button{cursor:pointer;border:0}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.shell{max-width:1240px;margin:auto;padding:0 26px 60px}.topbar{height:74px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);margin-bottom:30px}.brand{font-size:19px;font-weight:650;letter-spacing:-.5px}.brand small{display:block;color:var(--muted);font-size:11px;font-weight:450;letter-spacing:1px;margin-top:-3px}.nav{display:flex;gap:7px;flex-wrap:wrap}.nav button,.btn{padding:10px 15px;border-radius:999px;background:transparent;color:var(--ink);font-size:14px}.nav button.active{background:#1d1d1f;color:#fff}.btn.primary{background:var(--accent);color:white}.btn.secondary{background:var(--soft)}.btn.outline{border:1px solid var(--line);background:white}.btn.danger{color:var(--danger);background:#fff0ef}.btn.small{padding:7px 11px;font-size:13px}.hero{display:flex;justify-content:space-between;gap:20px;align-items:end;margin:12px 0 26px}.eyebrow{color:var(--muted);font-size:12px;letter-spacing:1.4px;text-transform:uppercase}.hero h1{font-size:clamp(28px,4vw,42px);letter-spacing:-1.5px;line-height:1.15;margin:8px 0}.hero p{margin:10px 0 0;color:var(--muted);max-width:620px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px}.span-8{grid-column:span 8}.span-7{grid-column:span 7}.span-6{grid-column:span 6}.span-5{grid-column:span 5}.span-4{grid-column:span 4}.span-12{grid-column:span 12}.section-title{font-size:19px;letter-spacing:-.4px;margin:0 0 5px}.sub{color:var(--muted);font-size:13px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0}.input,textarea,select{width:100%;border:1px solid #d8d8dc;border-radius:11px;padding:11px 12px;background:white;color:var(--ink);outline:none}.input:focus,textarea:focus,select:focus{border-color:#8caaf7;box-shadow:0 0 0 3px #eaf0ff}textarea{resize:vertical;min-height:110px;line-height:1.75}.field{display:grid;gap:6px;margin:12px 0}.field label{font-size:13px;color:#424245;font-weight:550}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.three{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.list{display:grid;gap:10px}.item{border:1px solid var(--line);border-radius:14px;padding:15px;background:#fff}.item-head{display:flex;justify-content:space-between;gap:12px;align-items:start}.item h3{margin:0 0 5px;font-size:16px;line-height:1.45}.item p{margin:7px 0;color:#4c4c50;white-space:pre-wrap;overflow-wrap:anywhere}.tag{display:inline-flex;align-items:center;padding:3px 8px;border-radius:999px;background:var(--soft);color:#55555b;font-size:11px;margin:2px 4px 2px 0}.empty{padding:35px 18px;text-align:center;color:var(--muted);border:1px dashed #d8d8dc;border-radius:14px}.tabs{display:flex;gap:6px;padding:4px;background:var(--soft);border-radius:12px;width:max-content;max-width:100%;flex-wrap:wrap}.tabs button{padding:8px 12px;border-radius:9px;background:transparent;color:#55555b;font-size:13px}.tabs button.active{background:#fff;color:var(--ink);box-shadow:0 1px 4px #0000000d}.split{display:grid;grid-template-columns:minmax(250px, .8fr) minmax(0,1.5fr);gap:18px}.sticky{position:sticky;top:16px;align-self:start}.answer-box{background:#fafafa;border:1px solid var(--line);border-radius:12px;padding:15px;white-space:pre-wrap;line-height:1.8}.muted-box{background:#f7f7f8;border-radius:12px;padding:13px;color:#515158}.notice{border-radius:12px;padding:12px 14px;background:#f0f5ff;color:#254b9b;font-size:13px}.warning{background:#fff8e8;color:#825b13}.hide{display:none!important}.divider{height:1px;background:var(--line);margin:18px 0}.metric{font-size:28px;font-weight:650;letter-spacing:-1px}.footer{margin-top:30px;color:var(--muted);font-size:12px;text-align:center}.checkline{display:flex;gap:9px;align-items:center}.checkline input{width:auto}.inline-actions{display:flex;gap:7px;flex-wrap:wrap}.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);padding:11px 16px;background:#1d1d1f;color:#fff;border-radius:999px;box-shadow:var(--shadow);z-index:10;font-size:13px;max-width:90vw}.scoregrid{display:grid;grid-template-columns:1fr auto;gap:9px;align-items:center}.scoregrid div{padding:9px 0;border-bottom:1px solid var(--line)}.scoregrid div:nth-last-child(-n+2){border-bottom:0}
+@media(max-width:800px){.shell{padding:0 14px 36px}.topbar{height:auto;padding:15px 0;align-items:flex-start;flex-direction:column;margin-bottom:22px}.nav{width:100%}.nav button{flex:1}.hero{align-items:flex-start;flex-direction:column}.span-8,.span-7,.span-6,.span-5,.span-4{grid-column:span 12}.split{grid-template-columns:1fr}.sticky{position:static}.panel{padding:17px}.two,.three{grid-template-columns:1fr}.item-head{flex-direction:column}.toolbar>*{flex:1}.toolbar .btn{flex:0 0 auto}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="topbar">
+  <div class="brand">知行 <small>READ · THINK · WRITE</small></div>
+  <nav class="nav" aria-label="主导航">
+    <button data-page="news" class="active">时政阅读</button>
+    <button data-page="essay">申论训练</button>
+    <button data-page="library">资料管理</button>
+    <button data-page="settings">设置与备份</button>
+  </nav>
+</header>
+<main id="app"></main>
+<div class="footer">知行 · 个人学习工作台　·　数据默认保存在当前浏览器中</div>
+</div>
+<div id="toast" class="toast hide" role="status"></div>
+<input id="importFile" type="file" accept=".json,application/json" class="hide">
+<script>
+(() => {
+'use strict';
+const KEY='zhixing_study_site_v1';
+const seed={
+  news:[
+    {id:'n1',title:'示例：从一份政策文件开始积累',category:'政策治理',source:'手动录入示例',date:'',url:'',summary:'这里可以记录政策文件的核心内容、适用对象、实施机制与潜在影响。请替换为真实新闻或政策原文。',notes:'申论素材：政策目标—执行主体—落实机制—监督评估。',favorite:false,createdAt:Date.now()},
+  ],
+  questions:[
+    {id:'q1',title:'示例题：概括基层治理的主要举措',type:'归纳概括',year:'练习示例',region:'自建题目',points:[{text:'完善基层治理机制',score:2},{text:'加强部门协同',score:2},{text:'强化监督问责',score:3},{text:'健全长效保障',score:3}],paperId:'p1',materials:'【材料示例】请在此处录入申论给定材料。',prompt:'根据给定材料，概括基层治理的主要举措。',reference:'【参考答案示例】\n一是完善基层治理机制。\n二是加强部门协同，推动信息共享与工作联动。\n三是强化监督问责，确保政策落实。\n四是健全长效保障机制。',rubric:'总分10分。按踩分点给分；意思相近可视为命中，注意结合材料判断。',maxScore:10,createdAt:Date.now()},
+  ],
+  papers:[{id:'p1',title:'我的第一套练习卷（示例）',year:'练习示例',region:'自建',notes:'可把题目关联到试卷。删除示例后添加自己的试卷。'}],
+  attempts:[],settings:{showAnswer:true},activeQuestionId:'q1',activePaperId:'p1'
+};
+let db=load();
+function load(){try{const x=JSON.parse(localStorage.getItem(KEY));if(x&&Array.isArray(x.news)&&Array.isArray(x.questions))return {...seed,...x,settings:{...seed.settings,...x.settings}}}catch(e){}return structuredClone(seed)}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(db));}catch(e){toast('保存失败：浏览器存储空间可能不足，请先导出备份。');}}
+const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const id=prefix=>prefix+'_'+Date.now().toString(36)+'_'+Math.random().toString(36).slice(2,7);
+function toast(msg){const el=$('#toast');el.textContent=msg;el.classList.remove('hide');clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.add('hide'),2600)}
+function fmtDate(v){return v?new Date(v).toLocaleDateString('zh-CN'):'未填写日期'}
+function activePage(){return document.querySelector('.nav button.active')?.dataset.page||'news'}
+function setPage(page){document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===page));render()}
+document.querySelectorAll('.nav button').forEach(b=>b.addEventListener('click',()=>setPage(b.dataset.page)));
+function render(){const page=activePage();if(page==='news')renderNews();else if(page==='essay')renderEssay();else if(page==='library')renderLibrary();else renderSettings()}
+function renderNews(){
+$('#app').innerHTML=`
+<section class="hero"><div><div class="eyebrow">CURRENT AFFAIRS</div><h1>读懂正在发生的事。</h1><p>收集重要新闻、政策文件与深度报道，把阅读转化为可复用的知识和申论素材。</p></div><button class="btn primary" id="addNews">＋ 添加文章</button></section>
+<div class="grid">
+ <section class="panel span-4"><h2 class="section-title">阅读资料库</h2><p class="sub">按主题检索，保存你的思考。</p>
+  <div class="field"><label>搜索标题、摘要或笔记</label><input class="input" id="newsSearch" placeholder="例如：基层治理、产业政策"></div>
+  <div class="field"><label>主题</label><select id="newsCategory"><option value="">全部主题</option>${['政策治理','经济发展','社会民生','国际关系','生态环境','科技创新','其他'].map(x=>`<option>${x}</option>`).join('')}</select></div>
+  <label class="checkline"><input type="checkbox" id="onlyFav"> 只看收藏</label>
+  <div class="divider"></div><div class="metric">${db.news.length}</div><div class="sub">篇已收录文章</div>
+ </section>
+ <section class="span-8"><div id="newsList" class="list"></div></section>
+</div>
+<div id="newsEditor" class="panel hide" style="margin-top:18px"></div>`;
+$('#addNews').onclick=()=>newsForm();
+$('#newsSearch').oninput=renderNewsList;$('#newsCategory').onchange=renderNewsList;$('#onlyFav').onchange=renderNewsList;
+renderNewsList();
+}
+function renderNewsList(){
+const q=($('#newsSearch')?.value||'').toLowerCase(),cat=$('#newsCategory')?.value||'',fav=$('#onlyFav')?.checked;
+const items=db.news.filter(n=>(!q||[n.title,n.summary,n.notes,n.source].join(' ').toLowerCase().includes(q))&&(!cat||n.category===cat)&&(!fav||n.favorite)).sort((a,b)=>(b.createdAt||0)-(a.createdAt||0));
+$('#newsList').innerHTML=items.length?items.map(n=>`<article class="item"><div class="item-head"><div><span class="tag">${esc(n.category||'未分类')}</span><span class="tag">${esc(fmtDate(n.date))}</span><h3>${esc(n.title)}</h3></div><button class="btn small outline" data-fav="${n.id}">${n.favorite?'★ 已收藏':'☆ 收藏'}</button></div><div class="sub">${esc(n.source||'未填写来源')}</div><p>${esc(n.summary||'暂无摘要')}</p>${n.notes?`<div class="muted-box"><strong>我的笔记</strong><br>${esc(n.notes)}</div>`:''}<div class="toolbar">${n.url?`<a class="btn small secondary" href="${esc(n.url)}" target="_blank" rel="noopener">打开原文 ↗</a>`:''}<button class="btn small outline" data-edit-news="${n.id}">编辑</button><button class="btn small outline" data-to-essay="${n.id}">转为申论素材</button><button class="btn small danger" data-del-news="${n.id}">删除</button></div></article>`).join(''):'<div class="empty">还没有匹配的文章。可以手动添加新闻、政策文件或深度报道。</div>';
+$('#newsList').querySelectorAll('[data-fav]').forEach(b=>b.onclick=()=>{const n=db.news.find(x=>x.id===b.dataset.fav);n.favorite=!n.favorite;save();renderNewsList()});
+$('#newsList').querySelectorAll('[data-edit-news]').forEach(b=>b.onclick=()=>newsForm(b.dataset.editNews));
+$('#newsList').querySelectorAll('[data-del-news]').forEach(b=>b.onclick=()=>{if(confirm('确定删除这篇文章吗？')){db.news=db.news.filter(x=>x.id!==b.dataset.delNews);save();renderNewsList()}});
+$('#newsList').querySelectorAll('[data-to-essay]').forEach(b=>b.onclick=()=>{const n=db.news.find(x=>x.id===b.dataset.toEssay);setPage('essay');setTimeout(()=>questionForm(null,{materials:`新闻素材：${n.title}\n来源：${n.source}\n链接：${n.url}\n摘要：${n.summary}\n我的笔记：${n.notes}`,title:`素材练习：${n.title}`}),0)});
+}
+function newsForm(newsId){const n=db.news.find(x=>x.id===newsId)||{title:'',category:'政策治理',source:'',date:'',url:'',summary:'',notes:'',favorite:false};const box=$('#newsEditor');box.classList.remove('hide');box.innerHTML=`<div class="item-head"><div><h2 class="section-title">${newsId?'编辑文章':'添加阅读资料'}</h2><p class="sub">支持新闻、政策文件、评论和研究报告。</p></div><button class="btn small outline" id="closeNews">关闭</button></div><form id="newsForm">
+<div class="field"><label>标题 *</label><input class="input" name="title" required value="${esc(n.title)}"></div>
+<div class="two"><div class="field"><label>主题</label><select name="category">${['政策治理','经济发展','社会民生','国际关系','生态环境','科技创新','其他'].map(x=>`<option ${x===n.category?'selected':''}>${x}</option>`).join('')}</select></div><div class="field"><label>发布日期</label><input class="input" name="date" type="date" value="${esc(n.date)}"></div></div>
+<div class="two"><div class="field"><label>来源/媒体</label><input class="input" name="source" value="${esc(n.source)}" placeholder="例如：新华社、政府网站"></div><div class="field"><label>原文链接</label><input class="input" name="url" type="url" value="${esc(n.url)}" placeholder="https://..."></div></div>
+<div class="field"><label>摘要/核心内容</label><textarea name="summary">${esc(n.summary)}</textarea></div><div class="field"><label>我的笔记与申论素材</label><textarea name="notes">${esc(n.notes)}</textarea></div>
+<label class="checkline"><input type="checkbox" name="favorite" ${n.favorite?'checked':''}> 收藏这篇文章</label><div class="toolbar"><button class="btn primary" type="submit">保存文章</button></div></form>`;
+$('#closeNews').onclick=()=>box.classList.add('hide');
+$('#newsForm').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target),obj={id:newsId||id('n'),title:f.get('title').trim(),category:f.get('category'),date:f.get('date'),source:f.get('source').trim(),url:f.get('url').trim(),summary:f.get('summary').trim(),notes:f.get('notes').trim(),favorite:f.get('favorite')==='on',createdAt:n.createdAt||Date.now()};if(newsId)db.news=db.news.map(x=>x.id===newsId?obj:x);else db.news.unshift(obj);save();box.classList.add('hide');renderNewsList();toast('文章已保存')};
+}
+function renderEssay(){
+const mode=window.essayMode||'papers';
+$('#app').innerHTML=`<section class="hero"><div><div class="eyebrow">WRITING & REVIEW</div><h1>把思考写成答案。</h1><p>管理试卷与单题，在线作答；无 API 模式下，复制批改请求到 ChatGPT，完成后把结果保存在这里。</p></div><button class="btn primary" id="newQuestion">＋ 添加题目</button></section>
+<div class="panel"><div class="item-head"><div><h2 class="section-title">申论题库</h2><p class="sub">试卷模式与单题模式可以随时切换。</p></div><div class="tabs"><button data-mode="papers" class="${mode==='papers'?'active':''}">试卷模式</button><button data-mode="questions" class="${mode==='questions'?'active':''}">单题模式</button></div></div>
+<div class="toolbar"><input class="input" id="essaySearch" placeholder="搜索题目、题型、年份或地区" style="max-width:360px"><button class="btn secondary" id="newPaper">＋ 新建试卷</button><button class="btn outline" id="importQuestions">导入题库 JSON</button></div><div id="essayCatalog"></div></div>
+<div id="questionEditor" class="panel hide" style="margin-top:18px"></div>
+<div id="workbench" style="margin-top:18px"></div>`;
+document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{window.essayMode=b.dataset.mode;renderEssay()});
+$('#newQuestion').onclick=()=>questionForm();
+$('#newPaper').onclick=()=>paperForm();
+$('#importQuestions').onclick=()=>$('#importFile').click();
+$('#essaySearch').oninput=renderEssayCatalog;
+renderEssayCatalog();renderWorkbench();
+}
+function renderEssayCatalog(){
+const q=($('#essaySearch')?.value||'').toLowerCase(),mode=window.essayMode||'papers',el=$('#essayCatalog');if(!el)return;
+if(mode==='papers'){
+const papers=db.papers.filter(p=>[p.title,p.year,p.region,p.notes].join(' ').toLowerCase().includes(q));
+el.innerHTML=papers.length?`<div class="list">${papers.map(p=>{const qs=db.questions.filter(x=>x.paperId===p.id);return `<article class="item"><div class="item-head"><div><h3>${esc(p.title)}</h3><div class="sub">${esc(p.year||'未标年份')} · ${esc(p.region||'未标地区')} · ${qs.length} 道题</div></div><div class="inline-actions"><button class="btn small outline" data-open-paper="${p.id}">查看试卷</button><button class="btn small outline" data-edit-paper="${p.id}">编辑</button><button class="btn small danger" data-del-paper="${p.id}">删除</button></div></div>${p.notes?`<p>${esc(p.notes)}</p>`:''}</article>`}).join('')}</div>`:'<div class="empty">还没有试卷。新建试卷后，可以把题目关联到试卷。</div>';
+el.querySelectorAll('[data-open-paper]').forEach(b=>b.onclick=()=>{db.activePaperId=b.dataset.openPaper;const first=db.questions.find(q=>q.paperId===b.dataset.openPaper);if(first)db.activeQuestionId=first.id;save();renderWorkbench();toast('已打开试卷')});
+el.querySelectorAll('[data-edit-paper]').forEach(b=>b.onclick=()=>paperForm(b.dataset.editPaper));
+el.querySelectorAll('[data-del-paper]').forEach(b=>b.onclick=()=>{const pid=b.dataset.delPaper;if(confirm('删除试卷不会删除其中题目，只会解除关联。确定吗？')){db.papers=db.papers.filter(p=>p.id!==pid);db.questions.forEach(q=>{if(q.paperId===pid)q.paperId=''});save();renderEssay()}});
+}else{
+const qs=db.questions.filter(x=>[x.title,x.type,x.year,x.region,x.prompt].join(' ').toLowerCase().includes(q));
+el.innerHTML=qs.length?`<div class="list">${qs.map(x=>`<article class="item"><div class="item-head"><div><h3>${esc(x.title)}</h3><div>${[x.type,x.year,x.region].filter(Boolean).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></div><div class="inline-actions"><button class="btn small primary" data-work="${x.id}">开始作答</button><button class="btn small outline" data-edit-q="${x.id}">编辑</button><button class="btn small danger" data-del-q="${x.id}">删除</button></div></div><p>${esc(x.prompt)}</p></article>`).join('')}</div>`:'<div class="empty">没有找到题目。可以添加单题，或导入题库 JSON。</div>';
+el.querySelectorAll('[data-work]').forEach(b=>b.onclick=()=>{db.activeQuestionId=b.dataset.work;save();renderWorkbench();document.querySelector('#workbench').scrollIntoView({behavior:'smooth',block:'start'})});
+el.querySelectorAll('[data-edit-q]').forEach(b=>b.onclick=()=>questionForm(b.dataset.editQ));
+el.querySelectorAll('[data-del-q]').forEach(b=>b.onclick=()=>deleteQuestion(b.dataset.delQ));
+}
+}
+function paperForm(pid){const p=db.papers.find(x=>x.id===pid)||{title:'',year:'',region:'',notes:''};const box=$('#questionEditor');box.classList.remove('hide');box.innerHTML=`<h2 class="section-title">${pid?'编辑试卷':'新建试卷'}</h2><form id="paperForm"><div class="field"><label>试卷名称 *</label><input class="input" name="title" required value="${esc(p.title)}"></div><div class="two"><div class="field"><label>年份</label><input class="input" name="year" value="${esc(p.year)}"></div><div class="field"><label>地区/考试类型</label><input class="input" name="region" value="${esc(p.region)}"></div></div><div class="field"><label>备注</label><textarea name="notes">${esc(p.notes)}</textarea></div><button class="btn primary">保存试卷</button> <button type="button" class="btn outline" id="cancelPaper">取消</button></form>`;
+$('#cancelPaper').onclick=()=>box.classList.add('hide');$('#paperForm').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target),o={id:pid||id('p'),title:f.get('title').trim(),year:f.get('year').trim(),region:f.get('region').trim(),notes:f.get('notes').trim()};if(pid)db.papers=db.papers.map(x=>x.id===pid?o:x);else db.papers.unshift(o);save();box.classList.add('hide');renderEssay();toast('试卷已保存')}}
+function questionForm(qid,defaults={}){const q=db.questions.find(x=>x.id===qid)||{title:defaults.title||'',type:'归纳概括',year:'',region:'',paperId:db.activePaperId||'',materials:defaults.materials||'',prompt:'',reference:'',rubric:'',maxScore:20,points:[]};const box=$('#questionEditor');box.classList.remove('hide');box.innerHTML=`<div class="item-head"><div><h2 class="section-title">${qid?'编辑题目':'添加申论题目'}</h2><p class="sub">踩分点建议每行一条，格式为“分值 | 要点内容”。</p></div><button class="btn small outline" id="cancelQuestion">关闭</button></div>
+<form id="questionForm"><div class="field"><label>题目名称 *</label><input class="input" name="title" required value="${esc(q.title)}"></div>
+<div class="three"><div class="field"><label>题型</label><select name="type">${['归纳概括','综合分析','提出对策','贯彻执行','申发论述','其他'].map(x=>`<option ${x===q.type?'selected':''}>${x}</option>`).join('')}</select></div><div class="field"><label>年份</label><input class="input" name="year" value="${esc(q.year)}"></div><div class="field"><label>地区/考试类型</label><input class="input" name="region" value="${esc(q.region)}"></div></div>
+<div class="field"><label>所属试卷</label><select name="paperId"><option value="">不关联试卷（单题）</option>${db.papers.map(p=>`<option value="${p.id}" ${q.paperId===p.id?'selected':''}>${esc(p.title)}</option>`).join('')}</select></div>
+<div class="field"><label>给定材料</label><textarea name="materials" rows="5">${esc(q.materials)}</textarea></div><div class="field"><label>题目要求 *</label><textarea name="prompt" required>${esc(q.prompt)}</textarea></div>
+<div class="field"><label>踩分点（每行一条：分值 | 要点）</label><textarea name="points" rows="5" placeholder="2 | 完善基层治理机制&#10;3 | 加强部门协同">${esc(q.points.map(p=>`${p.score} | ${p.text}`).join('\n'))}</textarea></div>
+<div class="two"><div class="field"><label>总分</label><input class="input" type="number" min="1" max="100" name="maxScore" value="${esc(q.maxScore)}"></div><div class="field"><label>评分说明</label><input class="input" name="rubric" value="${esc(q.rubric)}"></div></div>
+<div class="field"><label>参考答案</label><textarea name="reference" rows="6">${esc(q.reference)}</textarea></div><div class="toolbar"><button class="btn primary" type="submit">保存题目</button><button class="btn outline" type="button" id="cancelQuestion2">取消</button></div></form>`;
+const close=()=>box.classList.add('hide');$('#cancelQuestion').onclick=close;$('#cancelQuestion2').onclick=close;
+$('#questionForm').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);const points=String(f.get('points')).split('\n').map(line=>{const m=line.match(/^\\s*(\\d+(?:\\.\\d+)?)\\s*[|｜:：]\\s*(.+)$/);return m?{score:Number(m[1]),text:m[2].trim()}:line.trim()?{score:0,text:line.trim()}:null}).filter(Boolean);const o={id:qid||id('q'),title:f.get('title').trim(),type:f.get('type'),year:f.get('year').trim(),region:f.get('region').trim(),paperId:f.get('paperId'),materials:f.get('materials').trim(),prompt:f.get('prompt').trim(),points,reference:f.get('reference').trim(),rubric:f.get('rubric').trim(),maxScore:Number(f.get('maxScore'))||20,createdAt:q.createdAt||Date.now()};if(qid)db.questions=db.questions.map(x=>x.id===qid?o:x);else db.questions.unshift(o);db.activeQuestionId=o.id;save();box.classList.add('hide');renderEssay();toast('题目已保存')}}
+function deleteQuestion(qid){if(confirm('确定删除这道题吗？历史作答记录会保留，但将无法直接关联到题目。')){db.questions=db.questions.filter(q=>q.id!==qid);save();renderEssay()}}
+function renderWorkbench(){
+const el=$('#workbench');if(!el)return;let q=db.questions.find(x=>x.id===db.activeQuestionId)||db.questions[0];if(!q){el.innerHTML='<div class="panel empty">添加或导入题目后，这里会出现作答工作台。</div>';return}db.activeQuestionId=q.id;
+const attempts=db.attempts.filter(a=>a.questionId===q.id).sort((a,b)=>b.createdAt-a.createdAt);const latest=attempts[0];
+el.innerHTML=`<div class="item-head" style="margin:0 0 12px"><div><div class="eyebrow">WRITING DESK</div><h2 class="section-title">作答工作台</h2><p class="sub">当前题目：${esc(q.title)}</p></div><div class="inline-actions"><button class="btn small outline" id="editCurrent">编辑题目</button><button class="btn small outline" id="showAnswerToggle">${db.settings.showAnswer?'隐藏参考答案':'显示参考答案'}</button></div></div>
+<div class="split"><section class="panel sticky"><h3 class="section-title">题目与材料</h3><div class="sub">${[q.type,q.year,q.region].filter(Boolean).map(esc).join(' · ')}</div><div class="divider"></div><strong>题目要求</strong><p style="white-space:pre-wrap">${esc(q.prompt)}</p><strong>给定材料</strong><div class="answer-box" style="margin-top:8px">${esc(q.materials||'未录入材料')}</div><div class="divider"></div><div class="checkline"><input type="checkbox" id="answerVisible" ${db.settings.showAnswer?'checked':''}><label for="answerVisible">允许查看参考答案</label></div><div id="referenceBox" class="${db.settings.showAnswer?'':'hide'}" style="margin-top:12px"><strong>参考答案</strong><div class="answer-box" style="margin-top:8px">${esc(q.reference||'尚未录入参考答案')}</div><div class="toolbar"><button class="btn small outline" id="copyReference">复制参考答案</button></div></div></section>
+<section class="panel"><div class="item-head"><div><h3 class="section-title">我的作答</h3><p class="sub">草稿自动保存在当前浏览器。</p></div><span class="tag">${q.maxScore} 分</span></div>
+<textarea id="draft" rows="14" placeholder="在这里写下你的答案……"></textarea><div class="toolbar"><button class="btn primary" id="submitAttempt">提交本次作答</button><button class="btn secondary" id="copyPrompt">复制 ChatGPT 批改请求</button><button class="btn outline" id="saveDraft">保存草稿</button></div>
+<div class="notice">无 API 模式：复制批改请求后，在 ChatGPT 对话中粘贴即可。网站不会自动读取 ChatGPT 的回复，也不会自动给出 AI 分数。</div>
+<div class="divider"></div><div class="item-head"><h3 class="section-title">批改记录</h3><span class="sub">${attempts.length} 次作答</span></div><div id="attemptList" class="list" style="margin-top:12px"></div>
+<div class="divider"></div><h3 class="section-title">录入批改结果</h3><p class="sub">把 ChatGPT 的批改结果粘贴到这里保存，方便复盘。</p>
+<div class="two"><div class="field"><label>估分</label><input class="input" id="gradeScore" type="number" min="0" max="${q.maxScore}" placeholder="0–${q.maxScore}" value="${latest?.gradeScore??''}"></div><div class="field"><label>批改日期</label><input class="input" id="gradeDate" type="date" value="${latest?.gradeDate||new Date().toISOString().slice(0,10)}"></div></div>
+<div class="field"><label>踩分点核对与得分依据</label><textarea id="gradePoints" rows="4" placeholder="逐项记录：命中、部分命中、未命中">${esc(latest?.gradePoints||'')}</textarea></div>
+<div class="field"><label>失分原因与修改建议</label><textarea id="gradeFeedback" rows="4" placeholder="记录主要问题与下一次改进方向">${esc(latest?.gradeFeedback||'')}</textarea></div>
+<div class="toolbar"><button class="btn primary" id="saveGrade">保存批改结果</button><button class="btn outline" id="copyGradeTemplate">复制批改结果录入模板</button></div>
+</section></div>`;
+const draftKey='zhixing_draft_'+q.id;$('#draft').value=localStorage.getItem(draftKey)||latest?.answer||'';
+$('#draft').addEventListener('input',()=>{try{localStorage.setItem(draftKey,$('#draft').value)}catch(e){}});
+$('#editCurrent').onclick=()=>questionForm(q.id);
+$('#showAnswerToggle').onclick=()=>{db.settings.showAnswer=!db.settings.showAnswer;save();renderWorkbench()};
+$('#answerVisible').onchange=e=>{db.settings.showAnswer=e.target.checked;save();$('#referenceBox').classList.toggle('hide',!e.target.checked);$('#showAnswerToggle').textContent=e.target.checked?'隐藏参考答案':'显示参考答案'};
+$('#copyReference').onclick=()=>copy(q.reference);
+$('#saveDraft').onclick=()=>{localStorage.setItem(draftKey,$('#draft').value);toast('草稿已保存')};
+$('#submitAttempt').onclick=()=>{const answer=$('#draft').value.trim();if(!answer){toast('请先写下答案');return}if(!confirm('提交后会创建一条作答记录。确认提交？'))return;const a={id:id('a'),questionId:q.id,answer,createdAt:Date.now(),gradeScore:'',gradePoints:'',gradeFeedback:'',gradeDate:''};db.attempts.unshift(a);save();renderWorkbench();toast('作答已提交')};
+$('#copyPrompt').onclick=()=>{const answer=$('#draft').value.trim();if(!answer){toast('请先写下答案');return}copy(buildGradingPrompt(q,answer))};
+$('#copyGradeTemplate').onclick=()=>copy(`题目：${q.title}\n总分：${q.maxScore}\n估分：\n踩分点核对：\n失分原因与修改建议：\n参考答案对照：`);
+$('#saveGrade').onclick=()=>{let a=attempts[0];if(!a){toast('请先提交一次作答');return}a.gradeScore=$('#gradeScore').value===''?'':Number($('#gradeScore').value);a.gradeDate=$('#gradeDate').value;a.gradePoints=$('#gradePoints').value;a.gradeFeedback=$('#gradeFeedback').value;save();renderWorkbench();toast('批改结果已保存')};
+const al=$('#attemptList');al.innerHTML=attempts.length?attempts.map((a,i)=>`<article class="item"><div class="item-head"><div><strong>第 ${attempts.length-i} 次作答</strong><div class="sub">${new Date(a.createdAt).toLocaleString('zh-CN')}</div></div><div class="inline-actions">${a.gradeScore!==''&&a.gradeScore!=null?`<span class="tag">估分 ${esc(a.gradeScore)} / ${q.maxScore}</span>`:'<span class="tag">尚未评分</span>'}<button class="btn small outline" data-load-attempt="${a.id}">载入答案</button><button class="btn small danger" data-delete-attempt="${a.id}">删除</button></div></div>${a.gradeFeedback?`<p>${esc(a.gradeFeedback)}</p>`:''}</article>`).join(''):'<div class="empty">提交作答后，历史记录会显示在这里。</div>';
+al.querySelectorAll('[data-load-attempt]').forEach(b=>b.onclick=()=>{const a=attempts.find(x=>x.id===b.dataset.loadAttempt);$('#draft').value=a.answer;localStorage.setItem(draftKey,a.answer);$('#gradeScore').value=a.gradeScore??'';$('#gradeDate').value=a.gradeDate||'';$('#gradePoints').value=a.gradePoints||'';$('#gradeFeedback').value=a.gradeFeedback||'';toast('已载入这次作答')});
+al.querySelectorAll('[data-delete-attempt]').forEach(b=>b.onclick=()=>{if(confirm('确定删除这条作答记录？')){db.attempts=db.attempts.filter(a=>a.id!==b.dataset.deleteAttempt);save();renderWorkbench()}});
+}
+function buildGradingPrompt(q,answer){return `请你作为申论阅卷与辅导老师，严格依据我提供的题目、材料、评分细则和踩分点批改。不要因为措辞不同就机械扣分；判断是否表达了相同含义时，要结合材料。请给出有依据的估分，不要虚构评分标准。若标准答案或材料不足以支持判断，请明确说明不确定性。\n\n【题目】\n${q.title}\n${q.prompt}\n\n【给定材料】\n${q.materials||'（未提供）'}\n\n【总分】\n${q.maxScore}\n\n【踩分点及分值】\n${q.points.length?q.points.map((p,i)=>`${i+1}. ${p.score}分：${p.text}`).join('\n'):'（未提供，请说明评分依据的不确定性）'}\n\n【评分说明】\n${q.rubric||'请按踩分点核对，并说明给分依据。'}\n\n【我的答案】\n${answer}\n\n【参考答案（用于对照，请勿直接以措辞差异扣分）】\n${q.reference||'（未提供）'}\n\n请按以下结构输出：\n1. 总分估计（满分${q.maxScore}分）及估分把握程度；\n2. 踩分点逐项表格：要点、分值、命中情况（命中/部分命中/未命中）、我的答案对应原句、得分理由；\n3. 主要失分原因，区分内容遗漏、逻辑结构、材料依据、表达问题；\n4. 最小修改方案：尽量保留我原答案，只指出最值得补充或修改的地方；\n5. 一份修改后的参考作答；\n6. 最后原样附上我提供的参考答案。\n请避免空泛鼓励，给分务必可解释。`}
+function copy(text){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(text).then(()=>toast('已复制到剪贴板')).catch(()=>fallbackCopy(text));else fallbackCopy(text)}
+function fallbackCopy(text){const t=document.createElement('textarea');t.value=text;t.style.position='fixed';t.style.opacity='0';document.body.appendChild(t);t.select();try{document.execCommand('copy');toast('已复制到剪贴板')}catch(e){prompt('请手动复制以下内容：',text)}t.remove()}
+function renderLibrary(){
+$('#app').innerHTML=`<section class="hero"><div><div class="eyebrow">LIBRARY</div><h1>所有资料，集中管理。</h1><p>导入题库、导出整站备份，也可以只导出新闻或申论资料。</p></div></section>
+<div class="grid"><section class="panel span-6"><h2 class="section-title">题库导入</h2><p class="sub">支持本网站 JSON 备份，也支持约定格式的独立题库 JSON。</p><button class="btn primary" id="libImport">选择 JSON 文件</button><div class="divider"></div><h3>独立题库格式示例</h3><pre class="answer-box" style="white-space:pre-wrap;overflow:auto;font-size:12px">{
+  "papers": [{"id":"p1","title":"2025年某省申论"}],
+  "questions": [{
+    "id":"q1","title":"概括题","paperId":"p1",
+    "prompt":"请概括……","materials":"材料……",
+    "maxScore":20,
+    "points":[{"score":4,"text":"要点一"}],
+    "reference":"参考答案……","rubric":"评分说明……"
+  }]
+}</pre></section>
+<section class="panel span-6"><h2 class="section-title">导出与备份</h2><p class="sub">导出后请妥善保存文件。换浏览器或清理浏览器数据前，先导出备份。</p><div class="list"><button class="btn secondary" id="exportAll">导出全部数据（JSON）</button><button class="btn secondary" id="exportNews">仅导出时政阅读</button><button class="btn secondary" id="exportEssay">仅导出申论题库与作答</button><button class="btn outline" id="downloadTemplate">下载空白题库模板</button></div><div class="divider"></div><div class="notice warning">数据保存在当前浏览器中，不会自动同步到手机或另一台电脑。请定期备份。</div></section></div>`;
+$('#libImport').onclick=()=>$('#importFile').click();$('#exportAll').onclick=()=>downloadJSON(db,'zhixing-backup.json');$('#exportNews').onclick=()=>downloadJSON({news:db.news},'zhixing-news.json');$('#exportEssay').onclick=()=>downloadJSON({papers:db.papers,questions:db.questions,attempts:db.attempts},'zhixing-essay.json');$('#downloadTemplate').onclick=()=>downloadJSON({papers:[],questions:[]},'zhixing-question-template.json');
+}
+function renderSettings(){
+$('#app').innerHTML=`<section class="hero"><div><div class="eyebrow">PREFERENCES</div><h1>让工具适合你的节奏。</h1><p>网站不需要账号，不会把资料上传到服务器。所有数据都留在当前浏览器。</p></div></section><div class="grid">
+<section class="panel span-6"><h2 class="section-title">阅读与作答设置</h2><label class="checkline" style="margin-top:18px"><input type="checkbox" id="defaultAnswer" ${db.settings.showAnswer?'checked':''}> 默认显示参考答案</label><p class="sub">这只控制答案区的初始显示状态，不会删除参考答案。</p><div class="divider"></div><h3 class="section-title">当前数据概览</h3><div class="three"><div><div class="metric">${db.news.length}</div><div class="sub">篇阅读资料</div></div><div><div class="metric">${db.papers.length}</div><div class="sub">套试卷</div></div><div><div class="metric">${db.questions.length}</div><div class="sub">道题目</div></div></div><p class="sub">历史作答：${db.attempts.length} 条</p></section>
+<section class="panel span-6"><h2 class="section-title">关于隐私与限制</h2><div class="list"><div class="item"><strong>本地保存</strong><p>资料使用浏览器 localStorage 保存。无账号系统、无云同步。</p></div><div class="item"><strong>不接 API</strong><p>网站不会自动调用 AI。批改请求需要手动复制到 ChatGPT，再把结果粘贴回来。</p></div><div class="item"><strong>新闻来源</strong><p>当前版本由你手动添加文章和链接，不会自动抓取新闻。请优先使用政府部门、权威媒体和政策原文。</p></div><div class="item"><strong>GitHub Pages</strong><p>这是纯静态网站，可以部署在 GitHub Pages。不要将私人或敏感资料放入公开仓库；网站中的本地数据不会因为代码公开而自动公开，但仓库内的文件会公开。</p></div></div><div class="toolbar"><button class="btn danger" id="resetData">恢复初始示例数据</button></div></section></div>`;
+$('#defaultAnswer').onchange=e=>{db.settings.showAnswer=e.target.checked;save();toast('设置已保存')};$('#resetData').onclick=()=>{if(confirm('这会清空当前浏览器内的网站数据并恢复示例数据。请先导出备份。确定继续？')){db=structuredClone(seed);save();render();toast('已恢复示例数据')}};
+}
+function downloadJSON(obj,name){const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+$('#importFile').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const x=JSON.parse(await f.text());if(!confirm('导入可能覆盖同类数据。建议先导出备份。继续吗？')){e.target.value='';return}
+if(Array.isArray(x.news))db.news=x.news;
+if(Array.isArray(x.papers))db.papers=x.papers;
+if(Array.isArray(x.questions))db.questions=x.questions.map(q=>({...q,id:q.id||id('q'),points:Array.isArray(q.points)?q.points:[]}));
+if(Array.isArray(x.attempts))db.attempts=x.attempts;
+if(x.settings)db.settings={...db.settings,...x.settings};
+if(x.activeQuestionId)db.activeQuestionId=x.activeQuestionId;
+if(x.activePaperId)db.activePaperId=x.activePaperId;
+save();render();toast('导入完成')}catch(err){alert('导入失败：文件不是有效的 JSON，或格式不正确。')}e.target.value=''};
+window.addEventListener('beforeunload',()=>save());
+render();
+})();
+</script>
+</body>
+</html>
