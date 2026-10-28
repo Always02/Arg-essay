@@ -7,8 +7,8 @@
 <title>知行 · 时政与申论</title>
 <style>
 :root{--bg:#f5f5f7;--paper:#fff;--ink:#1d1d1f;--muted:#6e6e73;--line:#e5e5e8;--soft:#f0f0f2;--accent:#2463eb;--accent-soft:#eaf0ff;--danger:#b42318;--radius:18px;--shadow:0 8px 30px rgba(0,0,0,.035)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}button,input,textarea,select{font:inherit}button{cursor:pointer;border:0}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.shell{max-width:1240px;margin:auto;padding:0 26px 60px}.topbar{height:74px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);margin-bottom:30px}.brand{font-size:19px;font-weight:650;letter-spacing:-.5px}.brand small{display:block;color:var(--muted);font-size:11px;font-weight:450;letter-spacing:1px;margin-top:-3px}.nav{display:flex;gap:7px;flex-wrap:wrap}.nav button,.btn{padding:10px 15px;border-radius:999px;background:transparent;color:var(--ink);font-size:14px}.nav button.active{background:#1d1d1f;color:#fff}.btn.primary{background:var(--accent);color:white}.btn.secondary{background:var(--soft)}.btn.outline{border:1px solid var(--line);background:white}.btn.danger{color:var(--danger);background:#fff0ef}.btn.small{padding:7px 11px;font-size:13px}.hero{display:flex;justify-content:space-between;gap:20px;align-items:end;margin:12px 0 26px}.eyebrow{color:var(--muted);font-size:12px;letter-spacing:1.4px;text-transform:uppercase}.hero h1{font-size:clamp(28px,4vw,42px);letter-spacing:-1.5px;line-height:1.15;margin:8px 0}.hero p{margin:10px 0 0;color:var(--muted);max-width:620px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px}.span-8{grid-column:span 8}.span-7{grid-column:span 7}.span-6{grid-column:span 6}.span-5{grid-column:span 5}.span-4{grid-column:span 4}.span-12{grid-column:span 12}.section-title{font-size:19px;letter-spacing:-.4px;margin:0 0 5px}.sub{color:var(--muted);font-size:13px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0}.input,textarea,select{width:100%;border:1px solid #d8d8dc;border-radius:11px;padding:11px 12px;background:white;color:var(--ink);outline:none}.input:focus,textarea:focus,select:focus{border-color:#8caaf7;box-shadow:0 0 0 3px #eaf0ff}textarea{resize:vertical;min-height:110px;line-height:1.75}.field{display:grid;gap:6px;margin:12px 0}.field label{font-size:13px;color:#424245;font-weight:550}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.three{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.list{display:grid;gap:10px}.item{border:1px solid var(--line);border-radius:14px;padding:15px;background:#fff}.item-head{display:flex;justify-content:space-between;gap:12px;align-items:start}.item h3{margin:0 0 5px;font-size:16px;line-height:1.45}.item p{margin:7px 0;color:#4c4c50;white-space:pre-wrap;overflow-wrap:anywhere}.tag{display:inline-flex;align-items:center;padding:3px 8px;border-radius:999px;background:var(--soft);color:#55555b;font-size:11px;margin:2px 4px 2px 0}.empty{padding:35px 18px;text-align:center;color:var(--muted);border:1px dashed #d8d8dc;border-radius:14px}.tabs{display:flex;gap:6px;padding:4px;background:var(--soft);border-radius:12px;width:max-content;max-width:100%;flex-wrap:wrap}.tabs button{padding:8px 12px;border-radius:9px;background:transparent;color:#55555b;font-size:13px}.tabs button.active{background:#fff;color:var(--ink);box-shadow:0 1px 4px #0000000d}.split{display:grid;grid-template-columns:minmax(250px, .8fr) minmax(0,1.5fr);gap:18px}.sticky{position:sticky;top:16px;align-self:start}.answer-box{background:#fafafa;border:1px solid var(--line);border-radius:12px;padding:15px;white-space:pre-wrap;line-height:1.8}.muted-box{background:#f7f7f8;border-radius:12px;padding:13px;color:#515158}.notice{border-radius:12px;padding:12px 14px;background:#f0f5ff;color:#254b9b;font-size:13px}.warning{background:#fff8e8;color:#825b13}.hide{display:none!important}.divider{height:1px;background:var(--line);margin:18px 0}.metric{font-size:28px;font-weight:650;letter-spacing:-1px}.footer{margin-top:30px;color:var(--muted);font-size:12px;text-align:center}.checkline{display:flex;gap:9px;align-items:center}.checkline input{width:auto}.inline-actions{display:flex;gap:7px;flex-wrap:wrap}.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);padding:11px 16px;background:#1d1d1f;color:#fff;border-radius:999px;box-shadow:var(--shadow);z-index:10;font-size:13px;max-width:90vw}.progress{height:8px;background:var(--soft);border-radius:999px;overflow:hidden}.progress i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
-@media(max-width:800px){.shell{padding:0 14px 36px}.topbar{height:auto;padding:15px 0;align-items:flex-start;flex-direction:column;margin-bottom:22px}.nav{width:100%}.nav button{flex:1}.hero{align-items:flex-start;flex-direction:column}.span-8,.span-7,.span-6,.span-5,.span-4{grid-column:span 12}.split{grid-template-columns:1fr}.sticky{position:static}.panel{padding:17px}.two,.three{grid-template-columns:1fr}.item-head{flex-direction:column}.toolbar>*{flex:1}.toolbar .btn{flex:0 0 auto}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}button,input,textarea,select{font:inherit}button{cursor:pointer;border:0}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.shell{max-width:1240px;margin:auto;padding:0 26px 60px}.topbar{height:74px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);margin-bottom:30px}.brand{font-size:19px;font-weight:650;letter-spacing:-.5px}.brand small{display:block;color:var(--muted);font-size:11px;font-weight:450;letter-spacing:1px;margin-top:-3px}.nav{display:flex;gap:7px;flex-wrap:wrap}.nav button,.btn{padding:10px 15px;border-radius:999px;background:transparent;color:var(--ink);font-size:14px}.nav button.active{background:#1d1d1f;color:#fff}.btn.primary{background:var(--accent);color:white}.btn.secondary{background:var(--soft)}.btn.outline{border:1px solid var(--line);background:white}.btn.danger{color:var(--danger);background:#fff0ef}.btn.small{padding:7px 11px;font-size:13px}.hero{display:flex;justify-content:space-between;gap:20px;align-items:end;margin:12px 0 26px}.eyebrow{color:var(--muted);font-size:12px;letter-spacing:1.4px;text-transform:uppercase}.hero h1{font-size:clamp(28px,4vw,42px);letter-spacing:-1.5px;line-height:1.15;margin:8px 0}.hero p{margin:10px 0 0;color:var(--muted);max-width:620px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px}.span-8{grid-column:span 8}.span-7{grid-column:span 7}.span-6{grid-column:span 6}.span-5{grid-column:span 5}.span-4{grid-column:span 4}.span-12{grid-column:span 12}.section-title{font-size:19px;letter-spacing:-.4px;margin:0 0 5px}.sub{color:var(--muted);font-size:13px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0}.input,textarea,select{width:100%;border:1px solid #d8d8dc;border-radius:11px;padding:11px 12px;background:white;color:var(--ink);outline:none}.input:focus,textarea:focus,select:focus{border-color:#8caaf7;box-shadow:0 0 0 3px #eaf0ff}textarea{resize:vertical;min-height:110px;line-height:1.75}.field{display:grid;gap:6px;margin:12px 0}.field label{font-size:13px;color:#424245;font-weight:550}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.three{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.list{display:grid;gap:10px}.item{border:1px solid var(--line);border-radius:14px;padding:15px;background:#fff}.item-head{display:flex;justify-content:space-between;gap:12px;align-items:start}.item h3{margin:0 0 5px;font-size:16px;line-height:1.45}.item p{margin:7px 0;color:#4c4c50;white-space:pre-wrap;overflow-wrap:anywhere}.tag{display:inline-flex;align-items:center;padding:3px 8px;border-radius:999px;background:var(--soft);color:#55555b;font-size:11px;margin:2px 4px 2px 0}.empty{padding:35px 18px;text-align:center;color:var(--muted);border:1px dashed #d8d8dc;border-radius:14px}.tabs{display:flex;gap:6px;padding:4px;background:var(--soft);border-radius:12px;width:max-content;max-width:100%;flex-wrap:wrap}.tabs button{padding:8px 12px;border-radius:9px;background:transparent;color:#55555b;font-size:13px}.tabs button.active{background:#fff;color:var(--ink);box-shadow:0 1px 4px #0000000d}.split{display:grid;grid-template-columns:minmax(250px, .8fr) minmax(0,1.5fr);gap:18px}.sticky{position:sticky;top:16px;align-self:start}.answer-box{background:#fafafa;border:1px solid var(--line);border-radius:12px;padding:15px;white-space:pre-wrap;line-height:1.8}.muted-box{background:#f7f7f8;border-radius:12px;padding:13px;color:#515158}.notice{border-radius:12px;padding:12px 14px;background:#f0f5ff;color:#254b9b;font-size:13px}.warning{background:#fff8e8;color:#825b13}.hide{display:none!important}.divider{height:1px;background:var(--line);margin:18px 0}.metric{font-size:28px;font-weight:650;letter-spacing:-1px}.footer{margin-top:30px;color:var(--muted);font-size:12px;text-align:center}.checkline{display:flex;gap:9px;align-items:center}.checkline input{width:auto}.inline-actions{display:flex;gap:7px;flex-wrap:wrap}.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);padding:11px 16px;background:#1d1d1f;color:#fff;border-radius:999px;box-shadow:var(--shadow);z-index:10;font-size:13px;max-width:90vw}.progress{height:8px;background:var(--soft);border-radius:999px;overflow:hidden}.progress i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}.devbanner{background:#fff8e8;color:#825b13;border:1px solid #f0d9a8;border-radius:14px;padding:14px 16px;margin-bottom:16px;font-size:13px}.skillgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.skillcard{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fafafa;font-size:12px;line-height:1.6}.skillcard strong{display:block;font-size:13px;margin-bottom:4px;color:var(--ink)}
+@media(max-width:800px){.shell{padding:0 14px 36px}.topbar{height:auto;padding:15px 0;align-items:flex-start;flex-direction:column;margin-bottom:22px}.nav{width:100%}.nav button{flex:1}.hero{align-items:flex-start;flex-direction:column}.span-8,.span-7,.span-6,.span-5,.span-4{grid-column:span 12}.split{grid-template-columns:1fr}.sticky{position:static}.panel{padding:17px}.two,.three{grid-template-columns:1fr}.item-head{flex-direction:column}.toolbar>*{flex:1}.toolbar .btn{flex:0 0 auto}.skillgrid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -31,12 +31,12 @@
 <script>
 (() => {
 'use strict';
-const KEY='zhixing_study_site_v2';
+const KEY='zhixing_study_site_v3';
 
-/* ===================== 内置主题库（申论常用） ===================== */
+/* ===================== 内置主题库 ===================== */
 const THEMES=[
   {name:'基层治理',kw:['基层治理','社区治理','网格化','基层减负','乡村治理','社会治理','枫桥经验','矛盾调解','居委会','村委会','下沉','属地管理','基层干部']},
-  {name:'乡村振兴',kw:['乡村振兴','三农','农业','农村','农民','粮食安全','耕地','产业帮扶','和美乡村','驻村','集体经i','特色农业','返乡']},
+  {name:'乡村振兴',kw:['乡村振兴','三农','农业','农村','农民','粮食安全','耕地','产业帮扶','和美乡村','驻村','集体经济','特色农业','返乡']},
   {name:'营商环境',kw:['营商环境','放管服','政务服务','市场主体','民营经济','中小企业','减税降费','一网通办','证照分离','招商引资','企业负担']},
   {name:'数字经济',kw:['数字经济','数字化','数字政府','平台经济','数据要素','人工智能','互联网+','智能制造','产业数字化','直播电商','大数据']},
   {name:'科技创新',kw:['科技创新','科技自立自强','关键核心技术','研发','专利','实验室','科技成果转化','人才','卡脖子','新质生产力','基础研究']},
@@ -63,16 +63,65 @@ function detectTheme(text){
   return best;
 }
 
+/* ===================== 五类题型：出题箩筐 ===================== */
+/* 每类包含若干“题目模板”，用 {kw} 注入从文本提取的关键词，{theme} 为主题 */
+const QUESTION_BANK={
+  '归纳概括':[
+    '请根据本文，概括“{kw}”的主要做法/举措。要求：全面、准确，不超过250字。',
+    '请概括本文中与“{theme}”相关的主要问题及其表现。要求：条理清晰，不超过300字。',
+    '请梳理本文反映的“{kw}”的成效与经验。要求：分条作答，不超过250字。'
+  ],
+  '综合分析':[
+    '请结合本文，谈谈你对“{kw}”这一表述的理解。要求：观点明确，分析透彻，不超过300字。',
+    '请对本文中“{kw}”这一现象进行分析，谈谈你的看法。要求：有理有据，不超过350字。',
+    '请分析“{kw}”产生的原因及其影响。要求：层次分明，不超过300字。'
+  ],
+  '提出对策':[
+    '针对本文反映的“{kw}”问题，请提出具体可行的对策建议。要求：针对性强、切实可行，不超过300字。',
+    '请就如何进一步推进“{theme}”工作，提出你的建议。要求：分条列出，不超过350字。',
+    '假如你是相关部门工作人员，请针对本文中的“{kw}”问题提出解决措施。要求：措施具体，不超过300字。'
+  ],
+  '贯彻执行':[
+    '请根据本文，就“{theme}”工作拟写一份倡议书。要求：格式规范，内容具体，不超过500字。',
+    '请以相关部门名义，就“{kw}”问题写一份工作汇报提纲。要求：条理清楚，不超过400字。',
+    '请根据本文，就“{theme}”主题写一篇短评。要求：观点鲜明，语言得体，不超过400字。'
+  ],
+  '申发论述':[
+    '请结合本文，围绕“{theme}”主题，自拟题目，写一篇议论文。要求：观点明确，论证充分，800—1000字。',
+    '请以“{kw}”为话题，联系实际，自选角度，写一篇文章。要求：立意深刻，结构完整，800—1000字。'
+  ]
+};
+const QUESTION_TYPES=Object.keys(QUESTION_BANK);
+function pickKeywords(text){
+  const t=String(text||'');
+  const theme=detectTheme(t);
+  const th=THEMES.find(x=>x.name===theme);
+  const kws=[];
+  if(th){for(const k of th.kw){if(t.includes(k)&&k.length>=2)kws.push(k)}}
+  // 补充高频四字词/政策短语
+  const freq={};
+  const words=t.match(/[\u4e00-\u9fa5]{4,8}/g)||[];
+  for(const w of words){if(/^(我们|他们|可以|通过|进行|这个|一个|没有|已经|以及|但是|因为|所以|如果|就是|这样|什么|如何|什么|这些|那些|还是|只是|不是)/.test(w))continue;freq[w]=(freq[w]||0)+1}
+  Object.entries(freq).sort((a,b)=>b[1]-a[1]).slice(0,4).forEach(([w])=>{if(!kws.includes(w))kws.push(w)});
+  return {theme,kws:kws.slice(0,5)};
+}
+function generateQuestion(type,text){
+  const bank=QUESTION_BANK[type]||QUESTION_BANK['归纳概括'];
+  const {theme,kws}=pickKeywords(text);
+  const kw=kws[0]||theme;
+  const tpl=bank[Math.floor(Math.random()*bank.length)];
+  return {type,theme,kw,keywords:kws,text:tpl.replace(/\{kw\}/g,kw).replace(/\{theme\}/g,theme)};
+}
+
 /* ===================== 数据 ===================== */
 const seed={
-  news:[
-    {id:'n1',title:'示例：从一份政策文件开始积累',author:'',category:'政策治理',source:'',date:'',url:'',summary:'',notes:'',favorite:false,createdAt:Date.now()},
-  ],
-  questions:[
-    {id:'q1',title:'示例题：概括基层治理的主要举措',type:'归纳概括',year:'练习示例',region:'自建题目',points:[{text:'完善基层治理机制',score:2},{text:'加强部门协同',score:2},{text:'强化监督问责',score:3},{text:'健全长效保障',score:3}],paperId:'p1',materials:'【材料示例】请在此处录入申论给定材料。',prompt:'根据给定材料，概括基层治理的主要举措。',reference:'【参考答案示例】\n一是完善基层治理机制。\n二是加强部门协同，推动信息共享与工作联动。\n三是强化监督问责，确保政策落实。\n四是健全长效保障机制。',rubric:'总分10分。按踩分点给分；意思相近可视为命中，注意结合材料判断。',maxScore:10,createdAt:Date.now()},
-  ],
+  news:[{id:'n1',title:'示例：从一份政策文件开始积累',author:'',category:'政策治理',source:'',date:'',url:'',summary:'',notes:'',content:'',favorite:false,createdAt:Date.now()}],
+  questions:[{id:'q1',title:'示例题：概括基层治理的主要举措',type:'归纳概括',year:'练习示例',region:'自建题目',points:[{text:'完善基层治理机制',score:2},{text:'加强部门协同',score:2},{text:'强化监督问责',score:3},{text:'健全长效保障',score:3}],paperId:'p1',materials:'【材料示例】请在此处录入申论给定材料。',prompt:'根据给定材料，概括基层治理的主要举措。',reference:'【参考答案示例】\n一是完善基层治理机制。\n二是加强部门协同，推动信息共享与工作联动。\n三是强化监督问责，确保政策落实。\n四是健全长效保障机制。',rubric:'总分10分。按踩分点给分；意思相近可视为命中，注意结合材料判断。',maxScore:10,createdAt:Date.now()}],
   papers:[{id:'p1',title:'我的第一套练习卷（示例）',year:'练习示例',region:'自建',notes:'可把题目关联到试卷。删除示例后添加自己的试卷。'}],
-  attempts:[],settings:{showAnswer:true,themeNames:THEME_NAMES.slice()},activeQuestionId:'q1',activePaperId:'p1'
+  attempts:[],
+  practiceDrafts:{},
+  settings:{showAnswer:true,themeNames:THEME_NAMES.slice()},
+  activeQuestionId:'q1',activePaperId:'p1'
 };
 let db=load();
 function load(){try{const x=JSON.parse(localStorage.getItem(KEY));if(x&&Array.isArray(x.news)&&Array.isArray(x.questions))return {...seed,...x,settings:{...seed.settings,...x.settings}}}catch(e){}return structuredClone(seed)}
@@ -90,26 +139,18 @@ function themeOptions(selected){
   return names.map(x=>`<option ${x===selected?'selected':''}>${esc(x)}</option>`).join('')+(names.includes(selected)?'':`<option selected>${esc(selected||'无主题')}</option>`);
 }
 
-/* ===================== PDF 文字提取（离线/在线混合） ===================== */
+/* ===================== PDF 文字提取 ===================== */
 let pdfLibPromise=null;
 function loadPdfLib(){
   if(window.pdfjsLib)return Promise.resolve(window.pdfjsLib);
   if(pdfLibPromise)return pdfLibPromise;
   pdfLibPromise=new Promise((resolve,reject)=>{
-    const urls=[
-      'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js',
-      'https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.min.js',
-      'https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js'
-    ];
+    const urls=['https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js','https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.min.js','https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js'];
     let i=0;
     const tryLoad=()=>{
       if(i>=urls.length){reject(new Error('PDF 解析库加载失败'));return}
       const s=document.createElement('script');s.src=urls[i++];
-      s.onload=()=>{
-        if(!window.pdfjsLib){tryLoad();return}
-        window.pdfjsLib.GlobalWorkerOptions.workerSrc=s.src.replace('pdf.min.js','pdf.worker.min.js');
-        resolve(window.pdfjsLib);
-      };
+      s.onload=()=>{if(!window.pdfjsLib){tryLoad();return}window.pdfjsLib.GlobalWorkerOptions.workerSrc=s.src.replace('pdf.min.js','pdf.worker.min.js');resolve(window.pdfjsLib)};
       s.onerror=tryLoad;document.head.appendChild(s);
     };tryLoad();
   });
@@ -121,59 +162,32 @@ async function extractPdfText(file,onProgress){
   const doc=await lib.getDocument({data:buf}).promise;
   const pages=[];const total=doc.numPages;
   for(let p=1;p<=total;p++){
-    const page=await doc.getPage(p);
-    const content=await page.getTextContent();
+    const page=await doc.getPage(p);const content=await page.getTextContent();
     let lastY=null,line=[],lines=[];
-    for(const it of content.items){
-      if(!it.str)continue;
-      const y=it.transform[5];
-      if(lastY!==null&&Math.abs(y-lastY)>3){lines.push(line.join(''));line=[]}
-      line.push(it.str);lastY=y;
-    }
-    if(line.length)lines.push(line.join(''));
-    pages.push(lines.join('\n'));
-    if(onProgress)onProgress(Math.round(p/total*100));
+    for(const it of content.items){if(!it.str)continue;const y=it.transform[5];if(lastY!==null&&Math.abs(y-lastY)>3){lines.push(line.join(''));line=[]}line.push(it.str);lastY=y}
+    if(line.length)lines.push(line.join(''));pages.push(lines.join('\n'));if(onProgress)onProgress(Math.round(p/total*100));
   }
   return {text:pages.join('\n\n'),pages:total};
 }
-function cleanText(t){
-  return String(t||'').replace(/\r\n?/g,'\n').replace(/[ \t\u3000]+/g,' ').replace(/\n{3,}/g,'\n\n').trim();
-}
+function cleanText(t){return String(t||'').replace(/\r\n?/g,'\n').replace(/[ \t\u3000]+/g,' ').replace(/\n{3,}/g,'\n\n').trim()}
 function guessMetaFromText(text){
-  const t=String(text||'');
-  const meta={title:'',author:'',source:'',date:''};
-  // 标题：取开头最靠前的一行较短、非空、非正文标志的行
+  const t=String(text||'');const meta={title:'',author:'',source:'',date:''};
   const lines=t.split('\n').map(l=>l.trim()).filter(Boolean);
   const badTitle=/^(给定资料|材料|作答要求|问题|一、|二、|三、|第[一二三四五六七八九十]|【)/;
-  for(const l of lines.slice(0,12)){
-    if(l.length>=6&&l.length<=40&&!badTitle.test(l)&&!/[。；：，]$/.test(l)){meta.title=l;break}
-  }
-  // 作者
-  let m=t.match(/(?:作者|文\/|文：|撰稿|记者)[:：\s]*([\u4e00-\u9fa5A-Za-z·]{2,20})/);
-  if(m)meta.author=m[1].trim();
-  // 来源/媒体
-  m=t.match(/(?:来源|来源媒体|刊载于|发表于|转载自)[:：\s]*([^\n，。；]{2,30})/);
-  if(m)meta.source=m[1].trim();
-  if(!meta.source){
-    const media=['新华社','人民日报','光明日报','经济日报','半月谈','求是','中国政府网','央视新闻','中国新闻网','澎湃新闻','南方日报','学习强国'];
-    for(const k of media){if(t.includes(k)){meta.source=k;break}}
-  }
-  // 日期
+  for(const l of lines.slice(0,12)){if(l.length>=6&&l.length<=40&&!badTitle.test(l)&&!/[。；：，]$/.test(l)){meta.title=l;break}}
+  let m=t.match(/(?:作者|文\/|文：|撰稿|记者)[:：\s]*([\u4e00-\u9fa5A-Za-z·]{2,20})/);if(m)meta.author=m[1].trim();
+  m=t.match(/(?:来源|来源媒体|刊载于|发表于|转载自)[:：\s]*([^\n，。；]{2,30})/);if(m)meta.source=m[1].trim();
+  if(!meta.source){const media=['新华社','人民日报','光明日报','经济日报','半月谈','求是','中国政府网','央视新闻','中国新闻网','澎湃新闻','南方日报','学习强国'];for(const k of media){if(t.includes(k)){meta.source=k;break}}}
   m=t.match(/(20\d{2})\s*[-年./]\s*(\d{1,2})\s*[-月./]\s*(\d{1,2})/);
-  if(m){const y=m[1],mo=String(m[2]).padStart(2,'0'),d=String(m[3]).padStart(2,'0');meta.date=`${y}-${mo}-${d}`}
+  if(m){meta.date=`${m[1]}-${String(m[2]).padStart(2,'0')}-${String(m[3]).padStart(2,'0')}`}
   return meta;
 }
-function guessTitleOnly(text){
-  const lines=cleanText(text).split('\n').map(l=>l.trim()).filter(Boolean);
-  const bad=/^(给定资料|材料|作答要求|问题|一、|二、|三、|第[一二三四五六七八九十]|【)/;
-  for(const l of lines.slice(0,10)){if(l.length>=4&&l.length<=40&&!bad.test(l))return l}
-  return lines[0]?lines[0].slice(0,30):'';
-}
+function guessTitleOnly(text){const lines=cleanText(text).split('\n').map(l=>l.trim()).filter(Boolean);const bad=/^(给定资料|材料|作答要求|问题|一、|二、|三、|第[一二三四五六七八九十]|【)/;for(const l of lines.slice(0,10)){if(l.length>=4&&l.length<=40&&!bad.test(l))return l}return lines[0]?lines[0].slice(0,30):''}
 
 /* ===================== 时政阅读 ===================== */
 function renderNews(){
 $('#app').innerHTML=`
-<section class="hero"><div><div class="eyebrow">CURRENT AFFAIRS</div><h1>读懂正在发生的事。</h1><p>粘贴文本或导入 PDF，主题、来源与日期自动识别；摘要和笔记留给你阅读时记录。</p></div><button class="btn primary" id="addNews">＋ 添加阅读资料</button></section>
+<section class="hero"><div><div class="eyebrow">CURRENT AFFAIRS</div><h1>读懂正在发生的事。</h1><p>粘贴文本或导入 PDF，主题、来源与日期自动识别；读完后可直接按五大题型出题练习。</p></div><button class="btn primary" id="addNews">＋ 添加阅读资料</button></section>
 <div class="grid">
  <section class="panel span-4"><h2 class="section-title">阅读资料库</h2><p class="sub">按主题检索，保存你的思考。</p>
   <div class="field"><label>搜索标题、正文或笔记</label><input class="input" id="newsSearch" placeholder="例如：基层治理、产业政策"></div>
@@ -191,14 +205,12 @@ renderNewsList();
 function renderNewsList(){
 const q=($('#newsSearch')?.value||'').toLowerCase(),cat=$('#newsCategory')?.value||'',fav=$('#onlyFav')?.checked;
 const items=db.news.filter(n=>(!q||[n.title,n.summary,n.notes,n.source,n.content].join(' ').toLowerCase().includes(q))&&(!cat||n.category===cat)&&(!fav||n.favorite)).sort((a,b)=>(b.createdAt||0)-(a.createdAt||0));
-$('#newsList').innerHTML=items.length?items.map(n=>`<article class="item"><div class="item-head"><div><span class="tag">${esc(n.category||'无主题')}</span><span class="tag">${esc(fmtDate(n.date))}</span>${n.author?`<span class="tag">${esc(n.author)}</span>`:''}<h3>${esc(n.title)}</h3></div><button class="btn small outline" data-fav="${n.id}">${n.favorite?'★ 已收藏':'☆ 收藏'}</button></div><div class="sub">${esc(n.source||'未识别来源')}</div><p>${esc(n.summary||(n.content?n.content.slice(0,160)+'…':'暂无摘要'))}</p>${n.notes?`<div class="muted-box"><strong>我的笔记</strong><br>${esc(n.notes)}</div>`:''}<div class="toolbar">${n.url?`<a class="btn small secondary" href="${esc(n.url)}" target="_blank" rel="noopener">打开原文 ↗</a>`:''}<button class="btn small outline" data-read-news="${n.id}">阅读</button><button class="btn small outline" data-edit-news="${n.id}">编辑</button><button class="btn small danger" data-del-news="${n.id}">删除</button></div></article>`).join(''):'<div class="empty">还没有匹配的文章。点击右上角「添加阅读资料」粘贴文本或导入 PDF。</div>';
+$('#newsList').innerHTML=items.length?items.map(n=>`<article class="item"><div class="item-head"><div><span class="tag">${esc(n.category||'无主题')}</span><span class="tag">${esc(fmtDate(n.date))}</span>${n.author?`<span class="tag">${esc(n.author)}</span>`:''}<h3>${esc(n.title)}</h3></div><button class="btn small outline" data-fav="${n.id}">${n.favorite?'★ 已收藏':'☆ 收藏'}</button></div><div class="sub">${esc(n.source||'未识别来源')}</div><p>${esc(n.summary||(n.content?n.content.slice(0,160)+'…':'暂无摘要'))}</p>${n.notes?`<div class="muted-box"><strong>我的笔记</strong><br>${esc(n.notes)}</div>`:''}<div class="toolbar">${n.url?`<a class="btn small secondary" href="${esc(n.url)}" target="_blank" rel="noopener">打开原文 ↗</a>`:''}<button class="btn small outline" data-read-news="${n.id}">阅读 / 出题</button><button class="btn small outline" data-edit-news="${n.id}">编辑</button><button class="btn small danger" data-del-news="${n.id}">删除</button></div></article>`).join(''):'<div class="empty">还没有匹配的文章。点击右上角「添加阅读资料」粘贴文本或导入 PDF。</div>';
 $('#newsList').querySelectorAll('[data-fav]').forEach(b=>b.onclick=()=>{const n=db.news.find(x=>x.id===b.dataset.fav);n.favorite=!n.favorite;save();renderNewsList()});
 $('#newsList').querySelectorAll('[data-read-news]').forEach(b=>b.onclick=()=>newsReader(b.dataset.readNews));
 $('#newsList').querySelectorAll('[data-edit-news]').forEach(b=>b.onclick=()=>newsEditForm(b.dataset.editNews));
 $('#newsList').querySelectorAll('[data-del-news]').forEach(b=>b.onclick=()=>{if(confirm('确定删除这篇文章吗？')){db.news=db.news.filter(x=>x.id!==b.dataset.delNews);save();renderNewsList()}});
 }
-
-/* 导入表单：粘贴 or PDF */
 function newsImportForm(){
 const box=$('#newsEditor');box.classList.remove('hide');
 box.innerHTML=`<div class="item-head"><div><h2 class="section-title">添加阅读资料</h2><p class="sub">选择一种方式即可，其他信息尽量自动提取。</p></div><button class="btn small outline" id="closeNews">关闭</button></div>
@@ -233,7 +245,7 @@ $('#savePaste').onclick=()=>{
   const n={id:id('n'),title,author:author||meta.author,category:detectTheme(title+'\n'+body),source:meta.source,date:meta.date,url:'',summary:'',notes:'',content:body,favorite:false,createdAt:Date.now()};
   db.news.unshift(n);save();box.classList.add('hide');renderNewsList();toast('已保存并识别主题：'+n.category);
 };
-$('#pickPdf').onclick=()=>$('#pdfFile').click();
+$('#pickPdf').onclick=()=>{pdfTarget='news';$('#pdfFile').click()};
 $('#savePdf').onclick=()=>{
   const title=$('#pdfTitle').value.trim(),body=$('#pdfBody').value.trim();
   if(!title){toast('请填写标题');return}
@@ -242,7 +254,6 @@ $('#savePdf').onclick=()=>{
   db.news.unshift(n);save();box.classList.add('hide');renderNewsList();toast('PDF 文章已保存');
 };
 }
-/* PDF 文件输入被时政与题库共用，通过 target 区分 */
 let pdfTarget='news';
 $('#pdfFile').onchange=async e=>{
   const f=e.target.files[0];if(!f){return}
@@ -265,32 +276,74 @@ $('#pdfFile').onchange=async e=>{
       toast('PDF 文字已提取，请核对后保存');
     }else{
       const res=parseEssayPaper(clean,f.name);
-      if(statusEl)statusEl.textContent=`提取完成：识别到 ${res.questions.length} 道题`;
+      if(statusEl)statusEl.textContent=`提取完成：识别到 ${res.questions.length} 道题（测试功能，请核对）`;
       essayImportPreview(res,clean);
     }
   }catch(err){
-    console.error(err);
-    toast('PDF 解析失败：可尝试手动复制文字改用粘贴');
+    console.error(err);toast('PDF 解析失败：可尝试手动复制文字改用粘贴');
     if(statusEl)statusEl.textContent='解析失败';
-  }finally{
-    if(progEl)progEl.classList.add('hide');
-    e.target.value='';
-  }
+  }finally{if(progEl)progEl.classList.add('hide');e.target.value=''}
 };
 
-/* 阅读视图：阅读时填摘要和笔记 */
+/* 阅读 / 出题 */
 function newsReader(nid){
 const n=db.news.find(x=>x.id===nid);if(!n)return;
 const box=$('#newsEditor');box.classList.remove('hide');
+const draftKey='practice_'+n.id;
+const draft=db.practiceDrafts[draftKey]||{type:'归纳概括',question:'',answer:''};
 box.innerHTML=`<div class="item-head"><div><h2 class="section-title">${esc(n.title)}</h2><p class="sub">${[n.author,n.source,n.date?fmtDate(n.date):''].filter(Boolean).map(esc).join(' · ')}</p></div><button class="btn small outline" id="closeNews">关闭</button></div>
 <div class="toolbar"><span class="tag">${esc(n.category||'无主题')}</span><button class="btn small outline" id="readerEdit">编辑信息</button></div>
-<div class="split"><section><h3 class="section-title">正文</h3><div class="answer-box" style="max-height:520px;overflow:auto">${esc(n.content||n.summary||'（无正文，可编辑补充）')}</div></section>
-<section><div class="field"><label>主题</label><select id="readerCategory">${themeOptions(n.category)}</select></div><div class="field"><label>摘要（阅读时填写）</label><textarea id="readerSummary" rows="5" placeholder="用一两句话概括核心内容">${esc(n.summary)}</textarea></div><div class="field"><label>我的笔记 / 申论素材</label><textarea id="readerNotes" rows="7" placeholder="政策目标—执行主体—落实机制—监督评估；可复用金句等">${esc(n.notes)}</textarea></div><button class="btn primary" id="saveReader">保存摘要与笔记</button></section></div>`;
-$('#closeNews').onclick=()=>box.classList.add('hide');
+<div class="split">
+<section>
+ <h3 class="section-title">正文</h3>
+ <div class="answer-box" style="max-height:420px;overflow:auto">${esc(n.content||n.summary||'（无正文，可编辑补充）')}</div>
+ <div class="field"><label>摘要（阅读时填写）</label><textarea id="readerSummary" rows="3" placeholder="用一两句话概括核心内容">${esc(n.summary)}</textarea></div>
+ <div class="field"><label>我的笔记 / 申论素材</label><textarea id="readerNotes" rows="4" placeholder="政策目标—执行主体—落实机制—监督评估；可复用金句等">${esc(n.notes)}</textarea></div>
+ <button class="btn primary" id="saveReader">保存摘要与笔记</button>
+</section>
+<section>
+ <div class="panel" style="padding:16px">
+  <h3 class="section-title">✍️ 读完出题练习</h3>
+  <p class="sub">选择一类题型，系统会根据本文关键词自动出题；你可以在下方作答框里写答案。</p>
+  <div class="field"><label>选择题型</label>
+   <select id="practiceType">${QUESTION_TYPES.map(t=>`<option ${t===draft.type?'selected':''}>${t}</option>`).join('')}</select>
+  </div>
+  <div class="toolbar"><button class="btn primary" id="genPractice">生成题目</button><button class="btn outline" id="clearPractice">清空</button></div>
+  <div id="practiceQuestionBox" class="${draft.question?'':'hide'}">
+    <div class="muted-box" style="margin-bottom:10px"><strong>题目</strong><br><span id="practiceQuestionText">${esc(draft.question)}</span></div>
+    <div class="field"><label>你的作答</label><textarea id="practiceAnswer" rows="10" placeholder="在这里写下你的答案……">${esc(draft.answer)}</textarea></div>
+    <div class="toolbar"><button class="btn secondary" id="savePracticeDraft">保存草稿</button><button class="btn primary" id="submitPractice">提交到申论作答记录</button></div>
+  </div>
+ </div>
+</section></div>`;
+const close=()=>box.classList.add('hide');$('#closeNews').onclick=close;
 $('#readerEdit').onclick=()=>newsEditForm(nid);
-$('#saveReader').onclick=()=>{n.category=$('#readerCategory').value;n.summary=$('#readerSummary').value.trim();n.notes=$('#readerNotes').value.trim();save();renderNewsList();toast('已保存')};
+$('#saveReader').onclick=()=>{n.category=$('#readerCategory')?.value||n.category;n.summary=$('#readerSummary').value.trim();n.notes=$('#readerNotes').value.trim();save();renderNewsList();toast('已保存')};
+const state={...draft};
+function persist(){state.type=$('#practiceType').value;db.practiceDrafts[draftKey]=state;save()}
+$('#genPractice').onclick=()=>{
+  const type=$('#practiceType').value;
+  const g=generateQuestion(type,n.content||n.summary||n.title);
+  state.type=type;state.question=g.text;state.answer='';
+  $('#practiceQuestionText').textContent=g.text;
+  $('#practiceQuestionBox').classList.remove('hide');
+  $('#practiceAnswer').value='';
+  persist();toast('已生成题目，关键词：'+g.keywords.slice(0,3).join('、'));
+};
+$('#clearPractice').onclick=()=>{state.question='';state.answer='';$('#practiceQuestionBox').classList.add('hide');$('#practiceAnswer').value='';db.practiceDrafts[draftKey]=state;save()};
+$('#practiceAnswer')?.addEventListener('input',()=>{});
+$('#savePracticeDraft').onclick=()=>{state.answer=$('#practiceAnswer').value;persist();toast('草稿已保存')};
+$('#submitPractice').onclick=()=>{
+  const answer=$('#practiceAnswer').value.trim();
+  if(!state.question){toast('请先生成题目');return}
+  if(!answer){toast('请先写下答案');return}
+  const q={id:id('q'),title:'【阅读出题】'+state.type+' · '+n.title.slice(0,20),type:state.type,year:'阅读练习',region:'时政阅读',paperId:'',materials:n.content||n.summary||'',prompt:state.question,points:[],reference:'',rubric:'',maxScore:state.type==='申发论述'?40:20,createdAt:Date.now()};
+  db.questions.unshift(q);
+  db.attempts.unshift({id:id('a'),questionId:q.id,answer,createdAt:Date.now(),gradeScore:'',gradePoints:'',gradeFeedback:'',gradeDate:''});
+  db.activeQuestionId=q.id;save();
+  toast('已提交到申论作答记录，可去「申论训练」查看');
+};
 }
-/* 编辑已有文章 */
 function newsEditForm(nid){
 const n=db.news.find(x=>x.id===nid)||{title:'',category:'无主题',source:'',date:'',url:'',summary:'',notes:'',content:'',author:'',favorite:false};
 const box=$('#newsEditor');box.classList.remove('hide');
@@ -311,83 +364,55 @@ $('#newsEdit').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);
 };
 }
 
-/* ===================== 申论：PDF 题目提取规则引擎 ===================== */
+/* ===================== 申论：PDF 题目提取规则（测试中） ===================== */
 function parseEssayPaper(text,fileName){
-  const lines=cleanText(text).split('\n');
-  const joined=lines.join('\n');
+  const lines=cleanText(text).split('\n');const joined=lines.join('\n');
   const res={paper:{id:id('p'),title:'',year:'',region:'',notes:'PDF 导入：'+fileName},questions:[]};
-  // 年份 / 地区
   const y=joined.match(/(20\d{2})\s*年/);if(y)res.paper.year=y[1]+'年';
-  const regions=['国考','省考','联考','北京','上海','天津','重庆','河北','山西','辽宁','吉林','黑龙江','江苏','浙江','安徽','福建','江西','山东','河南','湖北','湖南','广东','广西','海南','四川','贵州','云南','西藏','陕西','甘肃','青海','宁夏','新疆','内蒙古','深圳','广州','浙江','山东'];
+  const regions=['国考','省考','联考','北京','上海','天津','重庆','河北','山西','辽宁','吉林','黑龙江','江苏','浙江','安徽','福建','江西','山东','河南','湖北','湖南','广东','广西','海南','四川','贵州','云南','西藏','陕西','甘肃','青海','宁夏','新疆','内蒙古','深圳','广州'];
   for(const r of regions){if(joined.includes(r+'申论')||joined.includes(r+'省考')||(r==='国考'&&joined.includes('国考'))){res.paper.region=r;break}}
-  // 试卷标题：开头较短行
   res.paper.title=(y?y[1]+'年':'')+(res.paper.region||'')+'申论试卷（PDF导入）';
-  // 找题目起始
-  const qStartPatterns=[
-    /^[\s【\[]*第[一二三四五六七八九十\d]+题[】\]]?/,
-    /^[\s【\[]*问题[一二三四五六七八九十\d]+[】\]]?/,
-    /^[\s]*[一二三四五六七八九十]+、/,
-    /^[\s]*\d+[.．、]/,
-  ];
+  const qStartPatterns=[/^[\s【\[]*第[一二三四五六七八九十\d]+题[】\]]?/,/^[\s【\[]*问题[一二三四五六七八九十\d]+[】\]]?/,/^[\s]*[一二三四五六七八九十]+、/,/^[\s]*\d+[.．、]/];
   const ansRequireIdx=lines.findIndex(l=>/^[\s【\[]*(作答要求|答题要求)/.test(l));
   const startIdx=ansRequireIdx>=0?ansRequireIdx:0;
   let current=null;const chunks=[];
   for(let i=startIdx;i<lines.length;i++){
-    const l=lines[i];
-    const isStart=qStartPatterns.some(p=>p.test(l.trim()))&&l.trim().length<60;
-    if(isStart){
-      if(current)chunks.push(current);
-      current={head:l.trim(),body:[]};
-    }else if(current){
-      current.body.push(l);
-    }
+    const l=lines[i];const isStart=qStartPatterns.some(p=>p.test(l.trim()))&&l.trim().length<60;
+    if(isStart){if(current)chunks.push(current);current={head:l.trim(),body:[]}}else if(current){current.body.push(l)}
   }
   if(current)chunks.push(current);
-  // 若没找到分题标志，尝试按「请根据给定资料」分段
-  if(!chunks.length){
-    const segs=joined.split(/(?=请(?:根据|结合|依据|概括|分析|谈谈|就|以))/g).filter(s=>s.trim().length>20);
-    segs.forEach((s,i)=>chunks.push({head:`第${i+1}题`,body:[s]}));
-  }
+  if(!chunks.length){const segs=joined.split(/(?=请(?:根据|结合|依据|概括|分析|谈谈|就|以))/g).filter(s=>s.trim().length>20);segs.forEach((s,i)=>chunks.push({head:`第${i+1}题`,body:[s]}))}
   chunks.forEach((c,idx)=>{
-    const bodyText=c.body.join('\n').trim();
-    if(!bodyText&&c.head.length<10)return;
-    // 题干：head 去掉题号 + body 第一段
+    const bodyText=c.body.join('\n').trim();if(!bodyText&&c.head.length<10)return;
     let prompt=(c.head.replace(/^[\s【\[]*(第[一二三四五六七八九十\d]+题|问题[一二三四五六七八九十\d]+|[一二三四五六七八九十]+、|\d+[.．、])[】\]]?\s*/,'')+'\n'+bodyText).trim();
-    // 分值
-    let maxScore=20;
-    const sm=bodyText.match(/[（(]?\s*(\d{1,2})\s*分\s*[)）]?/);
-    if(sm)maxScore=Number(sm[1]);
-    // 字数要求
-    const wm=bodyText.match(/(\d{2,4})\s*[字词]/);
-    const words=wm?wm[1]:'';
-    // 材料：本题之前的内容暂不细分，统一放整份材料
-    // 题型识别
-    let type='其他';
-    const pt=prompt+'\n'+bodyText;
+    let maxScore=20;const sm=bodyText.match(/[（(]?\s*(\d{1,2})\s*分\s*[)）]?/);if(sm)maxScore=Number(sm[1]);
+    const wm=bodyText.match(/(\d{2,4})\s*[字词]/);const words=wm?wm[1]:'';
+    let type='其他';const pt=prompt+'\n'+bodyText;
     if(/概括|归纳|概述|梳理/.test(pt))type='归纳概括';
     else if(/分析|谈谈.*理解|谈谈.*看法|评析|解释/.test(pt))type='综合分析';
     else if(/提出.*对策|建议|措施|怎么办|如何解决/.test(pt))type='提出对策';
     else if(/贯彻执行|公文|倡议书|讲话稿|宣传稿|汇报|简报|方案|公开信|短评/.test(pt))type='贯彻执行';
     else if(/文章|作文|议论文|论述|自拟题目/.test(pt))type='申发论述';
     const title=(c.head.replace(/^[\s【\[]*[】\]]?/,'').slice(0,40)||`第${idx+1}题`);
-    res.questions.push({
-      id:id('q'),title:title.length>24?title.slice(0,24)+'…':title,type,
-      year:res.paper.year,region:res.paper.region,paperId:res.paper.id,
-      materials:'',prompt,maxScore,words,
-      points:[],reference:'',rubric:'',createdAt:Date.now()
-    });
+    res.questions.push({id:id('q'),title:title.length>24?title.slice(0,24)+'…':title,type,year:res.paper.year,region:res.paper.region,paperId:res.paper.id,materials:'',prompt,maxScore,words,points:[],reference:'',rubric:'',createdAt:Date.now()});
   });
-  // 若题目太少，给出兜底
-  if(res.questions.length===0){
-    res.questions.push({id:id('q'),title:'未自动拆分：请编辑',type:'其他',year:res.paper.year,region:res.paper.region,paperId:res.paper.id,materials:'',prompt:cleanText(text).slice(0,2000),maxScore:20,points:[],reference:'',rubric:'',createdAt:Date.now()});
-  }
+  if(res.questions.length===0){res.questions.push({id:id('q'),title:'未自动拆分：请编辑',type:'其他',year:res.paper.year,region:res.paper.region,paperId:res.paper.id,materials:'',prompt:cleanText(text).slice(0,2000),maxScore:20,points:[],reference:'',rubric:'',createdAt:Date.now()})}
   return res;
 }
 
-/* 申论页 */
+/* ===================== 申论训练页（含测试说明 + 技巧） ===================== */
+const SKILLS={
+'归纳概括':{技巧:'审题定对象→材料找要点→同类合并→规范表述。盯高频词、观点句、逻辑分层词；每条用观点句领起，动宾结构，一条只说一个意思。',必掌握:'区分作答对象（问题/原因/做法/影响）；案例型材料按“主体+处境+做法+结果+启示”提炼，数据型看对比，观点型抓结论。'},
+'综合分析':{技巧:'解释型：总—分—总（释义→多角度分析→总结）。评价型：先依据材料明确表态→分析论证→收口。启示型：总—分，把具体做法泛化为可推广经验。',必掌握:'本质是“归纳概括+逻辑”；要点仍来自材料，不凭空发挥；用序号和关联词把层次撑开。'},
+'提出对策':{技巧:'对策三标准：针对问题、可行、可落地。材料直接有的提炼，只有问题/原因的用反推；每条“核心做法+具体展开（主体+手段+内容+客体+结果）”。',必掌握:'题干问题不明确时先用一句话总括问题；紧急事件先控局再追责再长效机制；活动整治按“小组→调研→整治→长效”流程。'},
+'贯彻执行':{技巧:'审题三问：我是谁、写给谁、为什么写。格式=标题（关于+事由+的+文种）+称谓+正文（开头/主体占80%/结尾）+落款；提纲、讲话稿、短评通常不要落款。',必掌握:'常见文种格式差异（讲话稿、倡议书、简报、通知）；语言不能串味：倡议书有号召力，通知正式，讲话稿偏口语。'},
+'申发论述':{技巧:'五段三分；开头=背景/现象+问题+分析+总论点；分论点靠案例展开（主体+处境+做法+结果+启示，或正反对比）；结尾从主题实际意义收。',必掌握:'立意必须来自材料；积累感动中国人物、七一勋章获得者、优秀基层干部、近一年热点，每个能用2—3句概括“谁+做了什么+结果+说明什么”。'}
+};
 function renderEssay(){
 const mode=window.essayMode||'papers';
-$('#app').innerHTML=`<section class="hero"><div><div class="eyebrow">WRITING & REVIEW</div><h1>把思考写成答案。</h1><p>管理试卷与单题，支持从 PDF 自动拆分题目；无 API 模式下，复制批改请求到 ChatGPT，再把结果保存回来。</p></div><div class="inline-actions"><button class="btn primary" id="newQuestion">＋ 添加题目</button><button class="btn secondary" id="importPaperPdf">📄 从 PDF 导入试卷</button></div></section>
+$('#app').innerHTML=`<section class="hero"><div><div class="eyebrow">WRITING & REVIEW</div><h1>把思考写成答案。</h1><p>申论写题功能尚在测试开发，静候发布；题库与作答记录可先试用，正式版会继续完善。</p></div><button class="btn primary" id="newQuestion">＋ 添加题目</button></section>
+<div class="devbanner"><strong>🚧 申论写题功能尚在测试开发，静候发布。</strong><br>当前页面的题库、PDF 导入、作答工作台均为测试版，可能随时调整。正式版发布前，建议先用「时政阅读 → 读完出题练习」完成日常训练。</div>
+<div class="panel" style="margin-bottom:18px"><h2 class="section-title">五大题型答题要点（过渡版）</h2><p class="sub">写题功能上线前，先掌握这些核心内容。</p><div class="skillgrid">${QUESTION_TYPES.map(t=>`<div class="skillcard"><strong>${t}</strong><div>技巧：${esc(SKILLS[t].技巧)}</div><div style="margin-top:6px;color:var(--muted)">必掌握：${esc(SKILLS[t].必掌握)}</div></div>`).join('')}</div></div>
 <div class="panel"><div class="item-head"><div><h2 class="section-title">申论题库</h2><p class="sub">试卷模式与单题模式可以随时切换。</p></div><div class="tabs"><button data-mode="papers" class="${mode==='papers'?'active':''}">试卷模式</button><button data-mode="questions" class="${mode==='questions'?'active':''}">单题模式</button></div></div>
 <div class="toolbar"><input class="input" id="essaySearch" placeholder="搜索题目、题型、年份或地区" style="max-width:360px"><button class="btn secondary" id="newPaper">＋ 新建试卷</button><button class="btn outline" id="importQuestions">导入 JSON 题库</button></div><div id="essayCatalog"></div></div>
 <div id="essayImportBox" class="panel hide" style="margin-top:18px"></div>
@@ -397,13 +422,12 @@ document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{window.essayM
 $('#newQuestion').onclick=()=>questionForm();
 $('#newPaper').onclick=()=>paperForm();
 $('#importQuestions').onclick=()=>$('#importFile').click();
-$('#importPaperPdf').onclick=()=>{pdfTarget='essay';$('#pdfFile').click();$('#essayImportBox').classList.remove('hide');$('#essayImportBox').innerHTML='<div class="item-head"><div><h2 class="section-title">PDF 导入试卷</h2><p class="sub">正在等待选择文件……</p></div></div><div class="progress" id="pdfEssayProgress"><i></i></div><p class="sub" id="pdfEssayStatus">选择本地 PDF 后自动提取并拆分题目。</p>'};
 $('#essaySearch').oninput=renderEssayCatalog;
 renderEssayCatalog();renderWorkbench();
 }
 function essayImportPreview(res,raw){
   const box=$('#essayImportBox');box.classList.remove('hide');
-  box.innerHTML=`<div class="item-head"><div><h2 class="section-title">PDF 提取结果（请核对）</h2><p class="sub">自动识别 ${res.questions.length} 道题；可修改试卷名后再导入。</p></div><button class="btn small outline" id="closeEssayImport">关闭</button></div>
+  box.innerHTML=`<div class="item-head"><div><h2 class="section-title">PDF 提取结果（测试功能，请核对）</h2><p class="sub">自动识别 ${res.questions.length} 道题；可修改试卷名后再导入。</p></div><button class="btn small outline" id="closeEssayImport">关闭</button></div>
   <div class="field"><label>试卷名称</label><input class="input" id="essayImportTitle" value="${esc(res.paper.title)}"></div>
   <div class="two"><div class="field"><label>年份</label><input class="input" id="essayImportYear" value="${esc(res.paper.year||'')}"></div><div class="field"><label>地区</label><input class="input" id="essayImportRegion" value="${esc(res.paper.region||'')}"></div></div>
   <div class="list">${res.questions.map((q,i)=>`<div class="item"><div class="item-head"><div><span class="tag">${esc(q.type)}</span><span class="tag">${q.maxScore}分</span><h3>${esc(q.title)}</h3></div></div><textarea rows="4" data-iq="${i}" placeholder="题干">${esc(q.prompt)}</textarea></div>`).join('')}</div>
@@ -411,19 +435,14 @@ function essayImportPreview(res,raw){
   $('#closeEssayImport').onclick=()=>box.classList.add('hide');
   $('#saveEssayImport').onclick=()=>{
     res.paper.title=$('#essayImportTitle').value.trim()||res.paper.title;
-    res.paper.year=$('#essayImportYear').value.trim();
-    res.paper.region=$('#essayImportRegion').value.trim();
+    res.paper.year=$('#essayImportYear').value.trim();res.paper.region=$('#essayImportRegion').value.trim();
     res.questions.forEach(q=>{q.year=res.paper.year;q.region=res.paper.region});
     box.querySelectorAll('[data-iq]').forEach(t=>{const i=Number(t.dataset.iq);if(res.questions[i])res.questions[i].prompt=t.value.trim()});
-    db.papers.unshift(res.paper);
-    db.questions=res.questions.concat(db.questions);
-    db.activePaperId=res.paper.id;
-    if(res.questions[0])db.activeQuestionId=res.questions[0].id;
-    save();box.classList.add('hide');renderEssay();toast('试卷与题目已导入');
+    db.papers.unshift(res.paper);db.questions=res.questions.concat(db.questions);
+    db.activePaperId=res.paper.id;if(res.questions[0])db.activeQuestionId=res.questions[0].id;
+    save();box.classList.add('hide');renderEssay();toast('试卷与题目已导入（测试）');
   };
 }
-
-/* 以下为原有题库/工作台逻辑，基本保持不变 */
 function renderEssayCatalog(){
 const q=($('#essaySearch')?.value||'').toLowerCase(),mode=window.essayMode||'papers',el=$('#essayCatalog');if(!el)return;
 if(mode==='papers'){
@@ -444,7 +463,7 @@ function paperForm(pid){const p=db.papers.find(x=>x.id===pid)||{title:'',year:''
 $('#cancelPaper').onclick=()=>box.classList.add('hide');$('#paperForm').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target),o={id:pid||id('p'),title:f.get('title').trim(),year:f.get('year').trim(),region:f.get('region').trim(),notes:f.get('notes').trim()};if(pid)db.papers=db.papers.map(x=>x.id===pid?o:x);else db.papers.unshift(o);save();box.classList.add('hide');renderEssay();toast('试卷已保存')}}
 function questionForm(qid,defaults={}){const q=db.questions.find(x=>x.id===qid)||{title:defaults.title||'',type:'归纳概括',year:'',region:'',paperId:db.activePaperId||'',materials:defaults.materials||'',prompt:'',reference:'',rubric:'',maxScore:20,points:[]};const box=$('#questionEditor');box.classList.remove('hide');box.innerHTML=`<div class="item-head"><div><h2 class="section-title">${qid?'编辑题目':'添加申论题目'}</h2><p class="sub">踩分点建议每行一条，格式为“分值 | 要点内容”。</p></div><button class="btn small outline" id="cancelQuestion">关闭</button></div>
 <form id="questionForm"><div class="field"><label>题目名称 *</label><input class="input" name="title" required value="${esc(q.title)}"></div>
-<div class="three"><div class="field"><label>题型</label><select name="type">${['归纳概括','综合分析','提出对策','贯彻执行','申发论述','其他'].map(x=>`<option ${x===q.type?'selected':''}>${x}</option>`).join('')}</select></div><div class="field"><label>年份</label><input class="input" name="year" value="${esc(q.year)}"></div><div class="field"><label>地区/考试类型</label><input class="input" name="region" value="${esc(q.region)}"></div></div>
+<div class="three"><div class="field"><label>题型</label><select name="type">${QUESTION_TYPES.map(x=>`<option ${x===q.type?'selected':''}>${x}</option>`).join('')}</select></div><div class="field"><label>年份</label><input class="input" name="year" value="${esc(q.year)}"></div><div class="field"><label>地区/考试类型</label><input class="input" name="region" value="${esc(q.region)}"></div></div>
 <div class="field"><label>所属试卷</label><select name="paperId"><option value="">不关联试卷（单题）</option>${db.papers.map(p=>`<option value="${p.id}" ${q.paperId===p.id?'selected':''}>${esc(p.title)}</option>`).join('')}</select></div>
 <div class="field"><label>给定材料</label><textarea name="materials" rows="5">${esc(q.materials)}</textarea></div><div class="field"><label>题目要求 *</label><textarea name="prompt" required>${esc(q.prompt)}</textarea></div>
 <div class="field"><label>踩分点（每行一条：分值 | 要点）</label><textarea name="points" rows="5" placeholder="2 | 完善基层治理机制&#10;3 | 加强部门协同">${esc(q.points.map(p=>`${p.score} | ${p.text}`).join('\n'))}</textarea></div>
@@ -456,7 +475,7 @@ function deleteQuestion(qid){if(confirm('确定删除这道题吗？历史作答
 function renderWorkbench(){
 const el=$('#workbench');if(!el)return;let q=db.questions.find(x=>x.id===db.activeQuestionId)||db.questions[0];if(!q){el.innerHTML='<div class="panel empty">添加或导入题目后，这里会出现作答工作台。</div>';return}db.activeQuestionId=q.id;
 const attempts=db.attempts.filter(a=>a.questionId===q.id).sort((a,b)=>b.createdAt-a.createdAt);const latest=attempts[0];
-el.innerHTML=`<div class="item-head" style="margin:0 0 12px"><div><div class="eyebrow">WRITING DESK</div><h2 class="section-title">作答工作台</h2><p class="sub">当前题目：${esc(q.title)}</p></div><div class="inline-actions"><button class="btn small outline" id="editCurrent">编辑题目</button><button class="btn small outline" id="showAnswerToggle">${db.settings.showAnswer?'隐藏参考答案':'显示参考答案'}</button></div></div>
+el.innerHTML=`<div class="item-head" style="margin:0 0 12px"><div><div class="eyebrow">WRITING DESK · 测试中</div><h2 class="section-title">作答工作台</h2><p class="sub">当前题目：${esc(q.title)}</p></div><div class="inline-actions"><button class="btn small outline" id="editCurrent">编辑题目</button><button class="btn small outline" id="showAnswerToggle">${db.settings.showAnswer?'隐藏参考答案':'显示参考答案'}</button></div></div>
 <div class="split"><section class="panel sticky"><h3 class="section-title">题目与材料</h3><div class="sub">${[q.type,q.year,q.region].filter(Boolean).map(esc).join(' · ')}</div><div class="divider"></div><strong>题目要求</strong><p style="white-space:pre-wrap">${esc(q.prompt)}</p><strong>给定材料</strong><div class="answer-box" style="margin-top:8px">${esc(q.materials||'未录入材料')}</div><div class="divider"></div><div class="checkline"><input type="checkbox" id="answerVisible" ${db.settings.showAnswer?'checked':''}><label for="answerVisible">允许查看参考答案</label></div><div id="referenceBox" class="${db.settings.showAnswer?'':'hide'}" style="margin-top:12px"><strong>参考答案</strong><div class="answer-box" style="margin-top:8px">${esc(q.reference||'尚未录入参考答案')}</div><div class="toolbar"><button class="btn small outline" id="copyReference">复制参考答案</button></div></div></section>
 <section class="panel"><div class="item-head"><div><h3 class="section-title">我的作答</h3><p class="sub">草稿自动保存在当前浏览器。</p></div><span class="tag">${q.maxScore} 分</span></div>
 <textarea id="draft" rows="14" placeholder="在这里写下你的答案……"></textarea><div class="toolbar"><button class="btn primary" id="submitAttempt">提交本次作答</button><button class="btn secondary" id="copyPrompt">复制 ChatGPT 批改请求</button><button class="btn outline" id="saveDraft">保存草稿</button></div>
@@ -487,10 +506,10 @@ function buildGradingPrompt(q,answer){return `请你作为申论阅卷与辅导�
 function copy(text){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(text).then(()=>toast('已复制到剪贴板')).catch(()=>fallbackCopy(text));else fallbackCopy(text)}
 function fallbackCopy(text){const t=document.createElement('textarea');t.value=text;t.style.position='fixed';t.style.opacity='0';document.body.appendChild(t);t.select();try{document.execCommand('copy');toast('已复制到剪贴板')}catch(e){prompt('请手动复制以下内容：',text)}t.remove()}
 
-/* 资料管理 & 设置 */
+/* ===================== 资料管理 & 设置 ===================== */
 function renderLibrary(){
 $('#app').innerHTML=`<section class="hero"><div><div class="eyebrow">LIBRARY</div><h1>所有资料，集中管理。</h1><p>导入题库、导出整站备份，也可以只导出新闻或申论资料。</p></div></section>
-<div class="grid"><section class="panel span-6"><h2 class="section-title">题库导入</h2><p class="sub">支持本网站 JSON 备份，也支持约定格式的独立题库 JSON；申论试卷可直接从 PDF 导入。</p><button class="btn primary" id="libImport">选择 JSON 文件</button> <button class="btn secondary" id="libPdf">从 PDF 导入申论试卷</button><div class="divider"></div><h3>独立题库格式示例</h3><pre class="answer-box" style="white-space:pre-wrap;overflow:auto;font-size:12px">{
+<div class="grid"><section class="panel span-6"><h2 class="section-title">题库导入</h2><p class="sub">支持本网站 JSON 备份，也支持约定格式的独立题库 JSON；申论试卷 PDF 导入为测试功能。</p><button class="btn primary" id="libImport">选择 JSON 文件</button> <button class="btn secondary" id="libPdf">从 PDF 导入申论试卷（测试）</button><div class="divider"></div><h3>独立题库格式示例</h3><pre class="answer-box" style="white-space:pre-wrap;overflow:auto;font-size:12px">{
   "papers": [{"id":"p1","title":"2025年某省申论"}],
   "questions": [{
     "id":"q1","title":"概括题","paperId":"p1",
@@ -506,7 +525,7 @@ $('#libImport').onclick=()=>$('#importFile').click();$('#libPdf').onclick=()=>{p
 function renderSettings(){
 $('#app').innerHTML=`<section class="hero"><div><div class="eyebrow">PREFERENCES</div><h1>让工具适合你的节奏。</h1><p>网站不需要账号，不会把资料上传到服务器。所有数据都留在当前浏览器。</p></div></section><div class="grid">
 <section class="panel span-6"><h2 class="section-title">阅读与作答设置</h2><label class="checkline" style="margin-top:18px"><input type="checkbox" id="defaultAnswer" ${db.settings.showAnswer?'checked':''}> 默认显示参考答案</label><p class="sub">这只控制答案区的初始显示状态，不会删除参考答案。</p><div class="divider"></div><h3 class="section-title">主题管理</h3><p class="sub">可添加自定义主题，识别不到的会自动归入「无主题」。</p><div class="toolbar"><input class="input" id="newTheme" placeholder="新主题名称" style="max-width:220px"><button class="btn small primary" id="addTheme">添加主题</button></div><div class="toolbar">${(db.settings.themeNames||THEME_NAMES).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div class="divider"></div><h3 class="section-title">当前数据概览</h3><div class="three"><div><div class="metric">${db.news.length}</div><div class="sub">篇阅读资料</div></div><div><div class="metric">${db.papers.length}</div><div class="sub">套试卷</div></div><div><div class="metric">${db.questions.length}</div><div class="sub">道题目</div></div></div><p class="sub">历史作答：${db.attempts.length} 条</p></section>
-<section class="panel span-6"><h2 class="section-title">关于隐私与限制</h2><div class="list"><div class="item"><strong>本地保存</strong><p>资料使用浏览器 localStorage 保存。无账号系统、无云同步。</p></div><div class="item"><strong>PDF 处理</strong><p>文字版 PDF 可本地提取；扫描图片版需要 OCR，无法直接提取。PDF 解析库首次会尝试从 CDN 加载，之后浏览器会缓存。</p></div><div class="item"><strong>不接 API</strong><p>网站不会自动调用 AI。批改请求需要手动复制到 ChatGPT，再把结果粘贴回来。</p></div><div class="item"><strong>GitHub Pages</strong><p>这是纯静态网站，可以部署在 GitHub Pages。请勿将私人或敏感资料放入公开仓库。</p></div></div><div class="toolbar"><button class="btn danger" id="resetData">恢复初始示例数据</button></div></section></div>`;
+<section class="panel span-6"><h2 class="section-title">关于隐私与限制</h2><div class="list"><div class="item"><strong>本地保存</strong><p>资料使用浏览器 localStorage 保存。无账号系统、无云同步。</p></div><div class="item"><strong>PDF 处理</strong><p>文字版 PDF 可本地提取；扫描图片版需要 OCR，无法直接提取。PDF 解析库首次会尝试从 CDN 加载，之后浏览器会缓存。</p></div><div class="item"><strong>申论写题</strong><p>尚在测试开发，静候发布。当前可用的是阅读后的“出题练习”和题库试用。</p></div><div class="item"><strong>GitHub Pages</strong><p>纯静态网站，可部署在 GitHub Pages。请勿将私人或敏感资料放入公开仓库。</p></div></div><div class="toolbar"><button class="btn danger" id="resetData">恢复初始示例数据</button></div></section></div>`;
 $('#defaultAnswer').onchange=e=>{db.settings.showAnswer=e.target.checked;save();toast('设置已保存')};
 $('#addTheme').onclick=()=>{const v=$('#newTheme').value.trim();if(!v)return;if(!db.settings.themeNames.includes(v))db.settings.themeNames.push(v);save();renderSettings();toast('主题已添加')};
 $('#resetData').onclick=()=>{if(confirm('这会清空当前浏览器内的网站数据并恢复示例数据。请先导出备份。确定继续？')){db=structuredClone(seed);save();render();toast('已恢复示例数据')}};
