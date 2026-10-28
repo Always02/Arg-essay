@@ -290,8 +290,9 @@ $('#pdfFile').onchange=async e=>{
       essayImportPreview(res,clean);
     }
   }catch(err){
-    console.error(err);toast('PDF 解析失败：可尝试手动复制文字改用粘贴');
-    if(statusEl)statusEl.textContent='解析失败';
+  console.error('PDF解析错误：',err);
+  toast('PDF 解析失败：'+(err&&err.message?err.message:'未知错误'));
+  if(statusEl)statusEl.textContent='解析失败：'+(err&&err.message?err.message:'未知错误');
   }finally{if(progEl)progEl.classList.add('hide');e.target.value=''}
 };
 
